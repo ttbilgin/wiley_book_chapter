@@ -2,14 +2,14 @@
 
 ## 1. Basics of VAEs
 
-A Variational Autoencoder (VAE) is a generative deep model combining an **encoder-decoder** architecture with a probabilistic latent space. The encoder maps each input (e.g. an image **x**) to parameters of a latent distribution $$q(z|x)$$ (typically Gaussian with mean μ(x) and variance σ²(x)). A latent vector **z** is sampled from this distribution and fed to the decoder, which reconstructs the input. Training maximizes the *evidence lower bound* (ELBO), comprising a reconstruction loss (e.g. $\|x - \hat x\|^2$) plus a Kullback–Leibler (KL) divergence between $q(z|x)$ and a chosen prior $p(z)$ (usually $N(0,I)$). The KL term regularizes the latent space and prevents overfitting.  In β-VAEs, a weight β scales the KL term, trading off reconstruction fidelity against latent smoothness.  After training, sampling z from the prior and decoding produces new synthetic images that resemble real data. In summary, VAEs learn a compressed **latent representation** of data (often lower-dimensional), while enabling generation of new samples via the probabilistic latent space.
+A Variational Autoencoder (VAE) is a generative deep model combining an **encoder-decoder** architecture with a probabilistic latent space. The encoder maps each input (e.g. an image **x**) to parameters of a latent distribution $$q(z|x)$$ (typically Gaussian with mean μ(x) and variance σ²(x)). A latent vector **z** is sampled from this distribution and fed to the decoder, which reconstructs the input. Training maximizes the *evidence lower bound* (ELBO), comprising a reconstruction loss (e.g. $$\|x - \hat x\|^2$$) plus a Kullback–Leibler (KL) divergence between $$q(z|x)$$ and a chosen prior $$p(z)$$ (usually $$N(0,I)$$). The KL term regularizes the latent space and prevents overfitting.  In β-VAEs, a weight β scales the KL term, trading off reconstruction fidelity against latent smoothness.  After training, sampling z from the prior and decoding produces new synthetic images that resemble real data. In summary, VAEs learn a compressed **latent representation** of data (often lower-dimensional), while enabling generation of new samples via the probabilistic latent space.
 
 Key components include:
 
-* **Encoder:** Neural network producing latent parameters $ (\mu(x),\sigma(x))$ from input.
+* **Encoder:** Neural network producing latent parameters $$ (\mu(x),\sigma(x))$$ from input.
 * **Latent space:** Continuous probabilistic embedding; in a standard VAE each latent dimension is Gaussian.
-* **Decoder:** Neural network that maps a sampled z back to the data space to reconstruct $ \hat x$.
-* **Loss (ELBO):** $\mathcal{L} = \mathbb{E}_{q(z|x)}[\log p(x|z)] - \mathrm{KL}[q(z|x)\|p(z)]$.  Equivalently, $||x - \hat x||^2 + \beta\,\mathrm{KL}(q(z|x)\|N(0,I))$.
+* **Decoder:** Neural network that maps a sampled z back to the data space to reconstruct $$ \hat x$$.
+* **Loss (ELBO):** $$\mathcal{L} = \mathbb{E}_{q(z|x)}[\log p(x|z)] - \mathrm{KL}[q(z|x)\|p(z)]$$.  Equivalently, $$||x - \hat x||^2 + \beta\,\mathrm{KL}(q(z|x)\|N(0,I))$$.
 
 VAEs are widely used in medical imaging because they can augment datasets by generating realistic synthetic examples. Their probabilistic nature and smooth latent space facilitate tasks like anomaly detection (by measuring likelihood under the model) and feature extraction.
 
