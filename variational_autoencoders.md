@@ -8,7 +8,7 @@ Key components include:
 
 * **Encoder:** Neural network producing latent parameters ($$\mu(x)$$, $$\sigma(x)$$) from input. 
 * **Latent space:** Continuous probabilistic embedding; in a standard VAE each latent dimension is Gaussian.
-* **Decoder:** Neural network that maps a sampled z back to the data space to reconstruct $$ \hat x$$.
+* **Decoder:** Neural network that maps a sampled z back to the data space to reconstruct $$\hat x$$.
 * **Loss (ELBO):** $$\mathcal{L} = \mathbb{E}_{q(z|x)}[\log p(x|z)] - \mathrm{KL}[q(z|x)\|p(z)]$$.  Equivalently, $$||x - \hat x||^2 + \beta\,\mathrm{KL}(q(z|x)\|N(0,I))$$.
 
 VAEs are widely used in medical imaging because they can augment datasets by generating realistic synthetic examples. Their probabilistic nature and smooth latent space facilitate tasks like anomaly detection (by measuring likelihood under the model) and feature extraction.
