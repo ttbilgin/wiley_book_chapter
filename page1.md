@@ -131,7 +131,7 @@ Bossa, M. N., Burgos, N., Fripp, J., & Ayache, N. (2024). Generative AI unlocks 
 
 Chen, J., Zhang, Y., Liu, X., et al. (2023). ReMiND: Recovery of missing neuroimaging using diffusion models with application to Alzheimer's disease. *medRxiv*. [https://doi.org/10.1101/2023.08.16.23294169](https://doi.org/10.1101/2023.08.16.23294169)
 
-Cho, H., Singh, S., & Kim, Y. (2024). Closed-loop deep brain stimulation with reinforcement learning and neural simulation. *IEEE Transactions on Biomedical Engineering, 71*(2), 365–378. [https://doi.org/10.1109/TBME.2023.3338259](https://doi.org/10.1109/TBME.2023.3338259)
+Cho CH, Huang PJ, Chen MC, Lin CW. Closed-Loop Deep Brain Stimulation With Reinforcement Learning and Neural Simulation. IEEE Trans Neural Syst Rehabil Eng. 2024;32:3615-3624. doi: 10.1109/TNSRE.2024.3465243. Epub 2024 Sep 27. PMID: 39302783.
 
 Jiang, Y., Zhao, W., & Xue, T. (2024). EEG-DIF: Early warning of epileptic seizures through generative diffusion model-based multi-channel EEG signals forecasting. *arXiv preprint*. [https://arxiv.org/abs/2410.17343](https://arxiv.org/abs/2410.17343)
 
