@@ -1,6 +1,6 @@
-# Generative Adversarial Networks (GANs) in Medical and Brain Imaging
+# 1. Generative Adversarial Networks (GANs) in Medical and Brain Imaging
 
-## Fundamentals of GANs
+## 1.1 Fundamentals of GANs
 
 Generative adversarial networks (GANs) consist of two neural networks – a *generator* and a *discriminator* – trained in an adversarial (minimax) game. The generator $G$ tries to produce realistic images from random noise $z\sim p_z$, while the discriminator $D$ aims to distinguish real images $x\sim p_{\text{data}}$ from $G$'s outputs. Typically the objective is given by the minimax loss:
 
@@ -29,7 +29,7 @@ $$\min_G\max_D E_{x\sim p_{\text{data}}}[\log D(x)] + E_{z\sim p_z}[\log(1-D(G(z
 
 often augmented with additional terms (e.g. conditional losses, cycle consistency, reconstruction loss). These core formulations enable applications across medical imaging tasks – from generating realistic MR or CT images to augment datasets and to performing image-to-image translations.
 
-## Variants of GANs for Medical Imaging
+## 1.2 Variants of GANs for Medical Imaging
 
 In recent years, many GAN architectures have been adapted to medical imaging tasks. Typical variants include **DCGAN** (deep convolutional GAN for realistic image synthesis), **Pix2Pix** (paired image-to-image translation using cGAN), **CycleGAN** (unpaired translation with cycle consistency), **WGAN** (Wasserstein GAN with improved stability), **WGAN-GP** (with gradient penalty), **StyleGAN** (progressive growing and style-based generation for high-resolution images), and **Pix2PixHD**, **ProGAN**, etc. These have been applied to all major modalities (MRI, CT, X-ray, PET, ultrasound) and tasks like image synthesis, reconstruction, segmentation, and enhancement.
 
@@ -51,7 +51,7 @@ The following table summarizes representative GAN-based medical imaging studies 
 
 Each of the above studies demonstrates how specific GAN variants serve different goals: DCGAN/U-Net GANs for generative augmentation, cGANs (Pix2Pix) for segmentation, CycleGANs for modality translation, and WGAN-based models for stabilizing training in reconstruction tasks. These works report performance improvements using adversarial losses, though it's important to note that most applications remain in research phases rather than clinical deployment. The performance gains should be interpreted within the context of specific datasets and experimental conditions rather than as indicators of clinical readiness.
 
-## GANs in Brain Imaging and Neurological Applications
+## 1.3 GANs in Brain Imaging and Neurological Applications
 
 GANs have been extensively applied to neuroimaging, addressing tasks in Alzheimer's disease (AD), Parkinson's disease (PD), epilepsy, stroke, and brain tumors, using structural (MRI, DTI), functional (fMRI, PET), and even EEG data. A major use-case is **disease classification and harmonization**. For example, Zhang *et al.* (2022) used a WGAN-GP to augment MRI data for multiclass AD diagnosis. By generating additional samples for underrepresented classes, their model improved classification performance across ADNI subtypes. Similarly, GAN-based *harmonization* networks have been employed to reduce scanner/site differences. Harmonizing multi-site MRI (ADNI/AIBL/OASIS) with a GAN improved AD vs. control classification accuracy by aligning distributions, though the practical benefits depend on the specific imaging protocols and populations studied.
 
