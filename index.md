@@ -1,9 +1,9 @@
 # Part II: Core Generative Techniques
 
 ## 1. Generative Adversarial Networks (GANs)
-- Fundamentals of GANs
-- Variants of GANs for medical imaging
-- GANs in brain imaging and neurological applications
+1.1 Fundamentals of GANs
+1.2 Variants of GANs for medical imaging
+1.3 GANs in brain imaging and neurological applications
 
 ## 2. Variational Autoencoders (VAEs)
 - Basics of VAEs
