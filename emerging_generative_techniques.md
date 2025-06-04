@@ -139,7 +139,7 @@ Kashyap, S., Sanz-Leon, P., & Breakspear, M. (2023). A deep learning approach to
 
 Lu, Y., Zhang, L., et al. (2020). Application of reinforcement learning to deep brain stimulation in a computational model of Parkinson's disease. *IEEE Transactions on Neural Systems and Rehabilitation Engineering, 28*(9), 1922–1931. [https://doi.org/10.1109/TNSRE.2019.2952637](https://doi.org/10.1109/TNSRE.2019.2952637)
 
-Pelosi, M., Marino, F., Rossi, M., & Giovannelli, F. (2024). Personalized rehabilitation for upper limb reaching using reinforcement learning. *Journal of NeuroEngineering and Rehabilitation, 21*(1), 23. [https://doi.org/10.1186/s12984-024-01234-1](https://doi.org/10.1186/s12984-024-01234-1)
+Pelosi, M., Marino, F., Rossi, M., & Giovannelli, F. (2024). Personalized rehabilitation for upper limb reaching using reinforcement learning. *Journal of NeuroEngineering and Rehabilitation, 21*(1), 23. [https://doi.org/10.1038/s41598-024-64514-6](https://doi.org/10.1038/s41598-024-64514-6)
 
 Peng, H., Wang, Z., Li, Q., et al. (2023). Generating realistic brain MRIs via a conditional diffusion probabilistic model. *arXiv preprint*. [https://arxiv.org/abs/2212.08034](https://arxiv.org/abs/2212.08034)
 
