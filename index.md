@@ -6,11 +6,11 @@
 ### 1.3 GANs in brain imaging and neurological applications
 
 ## 2. Variational Autoencoders (VAEs)
-- Basics of VAEs
-- Applications of VAEs in neuroscience
-- Comparing VAEs and GANs for healthcare research
+### 2.1 Basics of VAEs
+### 2.2 Applications of VAEs in neuroscience
+### 2.3 Comparing VAEs and GANs for healthcare research
 
 ## 3. Emerging Generative Techniques
-- Diffusion models in medical applications
-- Neural ODEs for brain disease modeling
-- Reinforcement learning and generative applications
+### 3.1 Diffusion models in medical applications
+### 3.2 Neural ODEs for brain disease modeling
+### 3.3 Reinforcement learning and generative applications
