@@ -137,7 +137,7 @@ Jiang, Y., Zhao, W., & Xue, T. (2024). EEG-DIF: Early warning of epileptic seizu
 
 Kashyap, S., Sanz-Leon, P., & Breakspear, M. (2023). A deep learning approach to estimating initial conditions of brain network models in reference to measured fMRI data. *Frontiers in Neuroscience, 17*, 1159914. [https://doi.org/10.3389/fnins.2023.1159914](https://doi.org/10.3389/fnins.2023.1159914)
 
-Lu, Y., Zhang, L., et al. (2020). Application of reinforcement learning to deep brain stimulation in a computational model of Parkinson's disease. *IEEE Transactions on Neural Systems and Rehabilitation Engineering, 28*(9), 1922–1931. [https://doi.org/10.1109/TNSRE.2020.3015404](https://doi.org/10.1109/TNSRE.2020.3015404)
+Lu, Y., Zhang, L., et al. (2020). Application of reinforcement learning to deep brain stimulation in a computational model of Parkinson's disease. *IEEE Transactions on Neural Systems and Rehabilitation Engineering, 28*(9), 1922–1931. [https://doi.org/10.1109/TNSRE.2019.2952637](https://doi.org/10.1109/TNSRE.2019.2952637)
 
 Pelosi, M., Marino, F., Rossi, M., & Giovannelli, F. (2024). Personalized rehabilitation for upper limb reaching using reinforcement learning. *Journal of NeuroEngineering and Rehabilitation, 21*(1), 23. [https://doi.org/10.1186/s12984-024-01234-1](https://doi.org/10.1186/s12984-024-01234-1)
 
