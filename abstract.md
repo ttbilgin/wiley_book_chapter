@@ -1,3 +1,5 @@
+# ABSTRACT
+
 Neurological diseases pose major challenges in modern healthcare, requiring advanced techniques for diagnosis, monitoring, and treatment. In response, artificial intelligence is emerging as a valuable tool, with methods like diffusion models, neural ordinary differential equations (Neural ODEs), and reinforcement learning (RL) offering promising advancements in disease monitoring and treatment optimization.
 
 Diffusion models are particularly useful for generating high-quality medical images. In neurology, these models can reconstruct MRI scans of the brain, providing detailed insights into disease progression. One of the biggest hurdles in neurological research is obtaining sufficient data, especially over extended periods. Diffusion models help address this gap by generating synthetic data that supplements existing datasets. Conditional diffusion models, in particular, can create brain scans that display specific disease characteristics or simulate how treatments might impact brain structure.
