@@ -1,6 +1,4 @@
-## **Chapter Title: Deep Learning Methods in the Analysis of Neurological Disorders**
-
-### **Introduction**
+## **Emerging Generative Techniques**
 
 Deep learning-based generative models—such as diffusion models, neural ordinary differential equations (Neural ODEs), and reinforcement learning (RL)—are offering new possibilities for diagnosing, monitoring, and treating neurological disorders. However, one of the most pressing limitations in this field lies in the restricted number of available medical imaging datasets. Clinical datasets often contain only a few thousand samples, limiting the generalizability of models and hindering their application in real-world clinical settings. To overcome these limitations, synthetic data generation has emerged as a highly promising avenue. By using diffusion models, realistic brain images can be generated to diversify and expand existing datasets, leading to improvements in model performance.
 
@@ -8,25 +6,25 @@ In this chapter, we present a systematic review of the use of diffusion models, 
 
 ---
 
-### **Diffusion Models and Neurological Disorders**
+### **3.1 Diffusion Models and Neurological Disorders**
 
 Diffusion models have garnered substantial attention in the domain of brain image synthesis and data augmentation, particularly due to their ability to generate high-resolution, realistic 3D images.
 
-#### **Brain MRI Synthesis and Data Augmentation**
+#### **3.1.1. Brain MRI Synthesis and Data Augmentation**
 
 One of the most comprehensive studies in this domain is by Pinaya et al. (2022), who developed a latent diffusion model capable of generating synthetic 3D brain MRI images from large-scale datasets. Using approximately 31,740 T1-weighted brain MRIs from the UK Biobank, their model generated over 100,000 synthetic MRIs conditioned on variables such as age, sex, and brain structure volumes. The public release of this synthetic dataset has provided a valuable resource for the broader research community, addressing the critical issue of data scarcity in medical imaging.
 
 Another important contribution was made by Peng et al. (2023), who proposed a conditional diffusion probabilistic model for realistic brain MRI generation. Their approach focuses on generating MRI subvolumes with anatomical consistency using slice-to-slice attention networks. This methodology is particularly advantageous in terms of memory efficiency, as it allows high-quality 3D image reconstruction without requiring extensive GPU resources.
 
-#### **Anomaly Detection and Inpainting**
+#### **3.1.2. Anomaly Detection and Inpainting**
 
 While diffusion models have shown promise in anomaly detection for medical imaging, current applications primarily focus on structural abnormalities in brain MRI. These models can be trained on normative (healthy) brain data to identify pathological deviations, offering potential applications in detecting white matter hyperintensities, multiple sclerosis lesions, and brain tumors.
 
-#### **Longitudinal Completion of Missing MRI Data**
+#### **3.1.3. Longitudinal Completion of Missing MRI Data**
 
 In longitudinal studies of disorders like Alzheimer's disease, complete temporal MRI datasets are often unavailable due to subject dropout or technical issues. To address this, Yuan et al. (2024) proposed a 3D diffusion-based model named "ReMiND" that imputes missing MRI volumes by conditioning on available prior (and optionally future) scans. Evaluated on the ADNI dataset, ReMiND outperformed forward-filling and variational autoencoder (VAE)-based methods in both imputation error and prediction of brain atrophy patterns, especially in the hippocampus.
 
-#### **EEG Signal Processing and Neurological Disorder Analysis**
+#### **3.1.4. EEG Signal Processing and Neurological Disorder Analysis**
 
 Current research in EEG-based neurological disorder analysis primarily relies on established deep learning approaches rather than diffusion models. Recent advances include multi-feature fusion networks for Alzheimer's disease detection and graph convolutional neural networks for epilepsy prediction.
 
@@ -36,15 +34,15 @@ For epilepsy prediction, Kuang et al. (2024) implemented a sophisticated framewo
 
 ---
 
-### **Neural Ordinary Differential Equations in Neurological Modeling**
+### **3.2 Neural Ordinary Differential Equations in Neurological Modeling**
 
 Neural ordinary differential equations (Neural ODEs) offer a principled way to model the continuous-time evolution of complex systems. Their formulation is particularly advantageous in neurological contexts, where brain dynamics and disease progression are inherently gradual and temporal in nature. Traditional models such as recurrent neural networks (RNNs) or Transformers, while powerful, struggle with irregular sampling and missing timepoints that are characteristic of clinical data. Neural ODEs overcome this limitation by learning differential equations that govern the latent dynamics of data in continuous time.
 
-#### **Modeling Brain Dynamics Using fMRI**
+#### **3.2.1. Modeling Brain Dynamics Using fMRI**
 
 One of the most compelling uses of Neural ODEs in neuroscience is their application to simulating brain dynamics from functional MRI (fMRI) data. Kashyap et al. (2023) demonstrated how neural ODEs combined with LSTM networks can estimate initial conditions of Brain Network Models in reference to measured fMRI data. Their approach involved analyzing whole-brain dynamics across 407 subjects from the Human Connectome Project, allowing for a more accurate and dynamic representation of brain behavior. This work highlighted the utility of ODEs in modeling large-scale brain networks with subject-specific dynamics.
 
-#### **Disease Progression Modeling**
+#### **3.2.2. Disease Progression Modeling**
 
 While Neural ODEs show theoretical promise for disease progression modeling, current clinical applications remain limited. The field instead relies more heavily on traditional ODE approaches and advanced graph neural networks. Lian et al. (2024) developed a novel multi-modal graph approach for personalized progression modelling and prediction in Parkinson's disease, achieving superior performance over conventional methods. This approach integrates multiple data modalities to capture individual disease trajectories.
 
@@ -52,19 +50,19 @@ For Alzheimer's disease progression, Bossa & Sahli (2023) employed a multidimens
 
 ---
 
-### **Reinforcement Learning Applications in Neurological Care**
+### **3.3. Reinforcement Learning Applications in Neurological Care**
 
 Reinforcement learning (RL) has emerged as a powerful approach for developing adaptive, closed-loop decision-making systems in healthcare. In the field of neurology, RL has been applied to optimize therapeutic interventions such as deep brain stimulation (DBS), as well as to personalize rehabilitation and cognitive training.
 
-#### **Adaptive Deep Brain Stimulation in Parkinson's Disease**
+#### **3.3.1. Adaptive Deep Brain Stimulation in Parkinson's Disease**
 
 In Parkinson's disease, DBS is widely used to alleviate motor symptoms such as tremor and rigidity. Traditionally, DBS systems are open-loop, meaning that they deliver fixed stimulation parameters regardless of real-time patient response. Cho et al. (2024) tackled this limitation by developing a closed-loop deep brain stimulation system with reinforcement learning and neural simulation. They compared several agents—including Soft Actor-Critic (SAC), Twin Delayed DDPG (TD3), Proximal Policy Optimization (PPO), and Advantage Actor-Critic (A2C)—to optimize stimulation protocols using basal ganglia-thalamic computational models. The TD3 agent achieved the best performance, identifying policies that consumed significantly less energy than conventional settings while preserving motor efficacy and reducing abnormal thalamic responses. Their results illustrate the feasibility of RL-based personalized neuromodulation systems.
 
-#### **Rehabilitation and Movement Therapy**
+#### **3.3.2. Rehabilitation and Movement Therapy**
 
 Beyond neuromodulation, RL has also been integrated into motor rehabilitation systems. Pelosi et al. (2024) developed a personalized rehabilitation approach for reaching movement using reinforcement learning. Their VR therapy platform enables patients to perform reaching exercises by interacting with virtual objects, where a Q-learning agent adjusts the difficulty level in real time based on the patient's kinematic performance. This approach promotes engagement and progressive motor recovery, exemplifying how RL can deliver individualized, performance-sensitive rehabilitation protocols, especially in stroke or post-operative recovery settings.
 
-#### **Cognitive Training in Neurodegenerative Disorders**
+#### **3.3.3. Cognitive Training in Neurodegenerative Disorders**
 
 Cognitive decline in conditions like Alzheimer's and mild neurocognitive disorder (MND) also presents opportunities for RL-driven intervention. Stasolla & Di Gioia (2023) explored the use of RL agents embedded within VR platforms to dynamically adjust the difficulty of cognitive tasks based on user behavior. Their perspective paper proposed tailored cognitive exercises that could enhance performance while improving user satisfaction and reducing caregiver burden. Such personalized digital therapies may become increasingly relevant in the early stages of dementia care.
 
