@@ -16,6 +16,10 @@ $$
 L_{\text{cyc}}(G,F) = E_{x\sim p_{\text{data}}(x)}[\|F(G(x)) - x\|_1] + E_{y\sim p_{\text{data}}(y)}[\|G(F(y)) - y\|_1]
 $$
 
+$$ 
+L_{cyc}(G,F) = E_{x \sim p_{data}(x)}[||F(G(x)) - x||_1] + E_{y \sim p_{data}(y)}[||G(F(y)) - y||_1] 
+$$
+
 where $G: X \rightarrow Y$ and $F: Y \rightarrow X$ are the mappings between domains $X$ and $Y$. This bidirectional constraint ensures both $x \rightarrow y \rightarrow x \approx x$ and $y \rightarrow x \rightarrow y \approx y$, which is essential for preserving anatomical structures in medical imaging applications.
 
 Standard GAN training can be unstable (mode collapse, vanishing gradients), so improved variants have been proposed. Wasserstein GANs (WGANs) replace the Jensen–Shannon divergence with the Earth-Mover (Wasserstein) distance, which yields smoother gradients and mitigates mode collapse. WGAN enforces a Lipschitz constraint (e.g. weight clipping) to compute the Wasserstein distance between real and generated distributions. The WGAN-GP variant adds a gradient penalty to enforce the Lipschitz condition without weight clipping. These loss modifications improve training stability at the cost of additional complexity. 
