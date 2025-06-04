@@ -1,4 +1,4 @@
-## **Emerging Generative Techniques**
+## **3. Emerging Generative Techniques**
 
 Deep learning-based generative models—such as diffusion models, neural ordinary differential equations (Neural ODEs), and reinforcement learning (RL)—are offering new possibilities for diagnosing, monitoring, and treating neurological disorders. However, one of the most pressing limitations in this field lies in the restricted number of available medical imaging datasets. Clinical datasets often contain only a few thousand samples, limiting the generalizability of models and hindering their application in real-world clinical settings. To overcome these limitations, synthetic data generation has emerged as a highly promising avenue. By using diffusion models, realistic brain images can be generated to diversify and expand existing datasets, leading to improvements in model performance.
 
