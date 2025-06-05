@@ -65,8 +65,8 @@ Future research should focus on **multimodal VAEs** that integrate different ima
 * Han, K., Wen, H., Shi, J., Lu, K.-H., Zhang, Y., Di, F., & Liu, Z. (2019). Variational autoencoder: An unsupervised model for encoding and decoding fMRI activity in visual cortex. *NeuroImage*, 198, 125–136. https://doi.org/10.1016/j.neuroimage.2019.05.039
 
 * Hassanaly, R., Brianceau, C., Colliot, O., & Burgos, N. (2024). Unsupervised Anomaly Detection in 3D Brain FDG-PET: A Benchmark of 17 VAE-Based Approaches. In *Deep Generative Models (MICCAI 2023), LNCS 14533*, 110–120. https://doi.org/10.1007/978-3-031-53767-7_11
-
-* He, R., Tward, D. J., Johnson, K. E., Aksman, L., Pati, S., Greig, E. H., & Wolk, D. A. (2024). Individualized Multi-Horizon MRI Trajectory Prediction for Alzheimer's Disease. *arXiv preprint*. https://arxiv.org/abs/2408.02018
+  
+* He, R., Ang, G., Tward, D., for the Alzheimer’s Disease Neuroimaging Initiative. (2025). Individualized Multi-horizon MRI Trajectory Prediction for Alzheimer’s Disease. In: Schroder, A., et al. Medical Image Computing and Computer Assisted Intervention – MICCAI 2024 Workshops. MICCAI 2024. Lecture Notes in Computer Science, vol 15401. Springer, Cham. https://doi.org/10.1007/978-3-031-84525-3_3
 
 * Higgins, I., Matthey, L., Pal, A., Burgess, C., Glorot, X., Botvinick, M., ... & Lerchner, A. (2017). β-VAE: Learning basic visual concepts with a constrained variational framework. In *International Conference on Learning Representations*. https://openreview.net/forum?id=Sy2fzU9gl
 
