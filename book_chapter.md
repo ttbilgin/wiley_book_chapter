@@ -122,9 +122,9 @@ Future research directions should focus on developing **medical-specific evaluat
 
 ---
 
-# Variational Autoencoders in Medical Imaging
+# 2. Variational Autoencoders in Medical Imaging
 
-## 1. Basics of VAEs
+## 2.1. Basics of VAEs
 
 A Variational Autoencoder (VAE) is a generative deep model combining an **encoder-decoder** architecture with a probabilistic latent space. The encoder maps each input (e.g. an image **x**) to parameters of a latent distribution $$q(z|x)$$ (typically Gaussian with mean μ(x) and variance σ²(x)). A latent vector **z** is sampled from this distribution and fed to the decoder, which reconstructs the input. Training maximizes the *evidence lower bound* (ELBO), comprising a reconstruction loss plus a Kullback–Leibler (KL) divergence between $$q(z|x)$$ and a chosen prior $$p(z)$$ (usually $$N(0,I)$$). The KL term regularizes the latent space and prevents overfitting. In β-VAEs, a weight β scales the KL term, trading off reconstruction fidelity against latent smoothness. After training, sampling z from the prior and decoding produces new synthetic images that resemble real data. In summary, VAEs learn a compressed **latent representation** of data (often lower-dimensional), while enabling generation of new samples via the probabilistic latent space.
 
@@ -139,7 +139,7 @@ For implementation, this is often approximated as: $$\mathcal{L} \approx \frac{1
 
 VAEs are widely used in medical imaging because they can augment datasets by generating realistic synthetic examples. Their probabilistic nature and smooth latent space facilitate tasks like anomaly detection (by measuring likelihood under the model) and feature extraction.
 
-## 2. Applications of VAEs in Neuroscience (2019–2024)
+## 2.2. Applications of VAEs in Neuroscience (2019–2024)
 
 VAEs have been applied across neuroscience modalities (MRI, fMRI, PET, EEG) for diverse tasks (classification, progression modeling, synthesis, anomaly detection, dimensionality reduction). Recent studies include:
 
@@ -154,7 +154,7 @@ VAEs have been applied across neuroscience modalities (MRI, fMRI, PET, EEG) for 
 
 These examples illustrate key use-cases: VAEs are used to **extract low-dimensional representations** of brain data (for classification or clustering), to **synthesize or predict images** (augmenting or simulating longitudinal scans), and to **detect anomalies** by modeling normal anatomy. For instance, Kumar et al. used a multimodal VAE to capture complex structural changes across MRI modalities. VAE-based generators like the CVAE in He et al. can predict future brain scans, aiding disease modeling. In fMRI, unsupervised VAEs have been shown to uncover meaningful latent factors, such as individual-specific network features and visual cortex representations. Overall, VAEs have proven valuable in neuroscience for **dimensionality reduction** and **feature learning**, especially when probabilistic embeddings and reconstruction losses align with clinical data characteristics.
 
-## 3. Comparing VAEs and GANs in Healthcare Research
+## 2.3. Comparing VAEs and GANs in Healthcare Research
 
 Variational Autoencoders (VAEs) and Generative Adversarial Networks (GANs) are two dominant deep generative frameworks in medical AI. Recent literature (2019–2024) highlights complementary strengths and weaknesses for healthcare tasks, though diffusion models are increasingly challenging both approaches:
 
