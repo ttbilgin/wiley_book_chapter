@@ -66,15 +66,11 @@ Future research should focus on **multimodal VAEs** that integrate different ima
 
 * Hassanaly, R., Brianceau, C., Colliot, O., & Burgos, N. (2024). Unsupervised Anomaly Detection in 3D Brain FDG-PET: A Benchmark of 17 VAE-Based Approaches. In *Deep Generative Models (MICCAI 2023), LNCS 14533*, 110–120. https://doi.org/10.1007/978-3-031-53767-7_11
   
-* He, R., Ang, G., Tward, D., for the Alzheimer’s Disease Neuroimaging Initiative. (2025). Individualized Multi-horizon MRI Trajectory Prediction for Alzheimer’s Disease. In: Schroder, A., et al. Medical Image Computing and Computer Assisted Intervention – MICCAI 2024 Workshops. MICCAI 2024. Lecture Notes in Computer Science, vol 15401. Springer, Cham. https://doi.org/10.1007/978-3-031-84525-3_3
-
-* Higgins, I., Matthey, L., Pal, A., Burgess, C., Glorot, X., Botvinick, M., ... & Lerchner, A. (2017). β-VAE: Learning basic visual concepts with a constrained variational framework. In *International Conference on Learning Representations*. https://openreview.net/forum?id=Sy2fzU9gl
+* He, R., Ang, G., Tward, D., for the Alzheimer's Disease Neuroimaging Initiative. (2025). Individualized Multi-horizon MRI Trajectory Prediction for Alzheimer's Disease. In: Schroder, A., et al. Medical Image Computing and Computer Assisted Intervention – MICCAI 2024 Workshops. MICCAI 2024. Lecture Notes in Computer Science, vol 15401. Springer, Cham. https://doi.org/10.1007/978-3-031-84525-3_3
 
 * Kebaili, A., Lapuyade-Lahorgue, J., & Ruan, S. (2023). Deep Learning Approaches for Data Augmentation in Medical Imaging: A Review. *Journal of Imaging*, 9(4), 81. https://doi.org/10.3390/jimaging9040081
 
 * Kim, J.-H., Zhang, Y., Han, K., Wen, Z., Choi, M., & Liu, Z. (2021). Representation learning of resting state fMRI with variational autoencoder. *NeuroImage*, 241, 118423. https://doi.org/10.1016/j.neuroimage.2021.118423
-
-* Kingma, D. P., & Welling, M. (2014). Auto-encoding variational bayes. In *International Conference on Learning Representations*. https://arxiv.org/abs/1312.6114
 
 * Kumar, S., Payne, P., & Sotiras, A. (2022). Normative Modeling using Multimodal Variational Autoencoders to Identify Abnormal Brain Structural Patterns in Alzheimer Disease. Proc SPIE Int Soc Opt Eng. 2023 Feb;12465:1246503. https://doi.org/10.1117/12.2654369. Epub 2023 Apr 7. PMID: 38130873; PMCID: PMC10731988.
 
