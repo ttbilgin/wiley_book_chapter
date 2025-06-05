@@ -82,4 +82,4 @@ Future research should focus on **multimodal VAEs** that integrate different ima
 
 * Yoon, J., Jordon, J., & van der Schaar, M. (2018). GAIN: Missing data imputation using generative adversarial nets. In *Proceedings of the 35th International Conference on Machine Learning*, PMLR 80:5689-5698. https://proceedings.mlr.press/v80/yoon18a.html
 
-* Yue, Y., Deng, J. D., De Ridder, D., Manning, P., & Adhia, D. (2023). Variational Autoencoder Learns Better Feature Representations for EEG-based Obesity Classification. *arXiv preprint*. https://arxiv.org/abs/2302.00789
+* Yue, Y., De Ridder, D., Manning, P., Deng, J.D. (2025). Variational Autoencoder Learns Better Feature Representations for EEG-Based Obesity Classification. In: Antonacopoulos, A., Chaudhuri, S., Chellappa, R., Liu, CL., Bhattacharya, S., Pal, U. (eds) Pattern Recognition. ICPR 2024. Lecture Notes in Computer Science, vol 15323. Springer, Cham. https://doi.org/10.1007/978-3-031-78347-0_12
