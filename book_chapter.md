@@ -328,31 +328,31 @@ Future work should focus on hybrid models that combine the strengths of these ap
 
 * Yue, Y., De Ridder, D., Manning, P., Deng, J.D. (2025). Variational Autoencoder Learns Better Feature Representations for EEG-Based Obesity Classification. In: Antonacopoulos, A., Chaudhuri, S., Chellappa, R., Liu, CL., Bhattacharya, S., Pal, U. (eds) Pattern Recognition. ICPR 2024. Lecture Notes in Computer Science, vol 15323. Springer, Cham. https://doi.org/10.1007/978-3-031-78347-0_12
 
-Bossa, M. N., & Sahli, H. (2023). A multidimensional ODE-based model of Alzheimer's disease progression. *Scientific Reports*, 13, 3162. https://doi.org/10.1038/s41598-023-29383-5
+* Bossa, M. N., & Sahli, H. (2023). A multidimensional ODE-based model of Alzheimer's disease progression. *Scientific Reports*, 13, 3162. https://doi.org/10.1038/s41598-023-29383-5
 
-Chen, Y., Wang, H., Zhang, D., Zhang, L., & Tao, L. (2023). Multi-feature fusion learning for Alzheimer's disease prediction using EEG signals in resting state. *Frontiers in Neuroscience*, 17, 1272834. https://doi.org/10.3389/fnins.2023.1272834
+* Chen, Y., Wang, H., Zhang, D., Zhang, L., & Tao, L. (2023). Multi-feature fusion learning for Alzheimer's disease prediction using EEG signals in resting state. *Frontiers in Neuroscience*, 17, 1272834. https://doi.org/10.3389/fnins.2023.1272834
 
-Cho, C. H., Huang, P. J., Chen, M. C., & Lin, C. W. (2024). Closed-loop deep brain stimulation with reinforcement learning and neural simulation. *IEEE Transactions on Neural Systems and Rehabilitation Engineering*, 32, 3615-3624. https://doi.org/10.1109/TNSRE.2024.3465243
+* Cho, C. H., Huang, P. J., Chen, M. C., & Lin, C. W. (2024). Closed-loop deep brain stimulation with reinforcement learning and neural simulation. *IEEE Transactions on Neural Systems and Rehabilitation Engineering*, 32, 3615-3624. https://doi.org/10.1109/TNSRE.2024.3465243
 
-Kashyap, S., Sanz-Leon, P., & Breakspear, M. (2023). A deep learning approach to estimating initial conditions of brain network models in reference to measured fMRI data. *Frontiers in Neuroscience*, 17, 1159914. https://doi.org/10.3389/fnins.2023.1159914
+* Kashyap, S., Sanz-Leon, P., & Breakspear, M. (2023). A deep learning approach to estimating initial conditions of brain network models in reference to measured fMRI data. *Frontiers in Neuroscience*, 17, 1159914. https://doi.org/10.3389/fnins.2023.1159914
 
-Kuang, Z., Liu, S., Zhao, J., Wang, L., & Li, Y. (2024). Epilepsy EEG seizure prediction based on the combination of graph convolutional neural network combined with long- and short-term memory cell network. *Applied Sciences*, 14(24), 11569. https://doi.org/10.3390/app142411569
+* Kuang, Z., Liu, S., Zhao, J., Wang, L., & Li, Y. (2024). Epilepsy EEG seizure prediction based on the combination of graph convolutional neural network combined with long- and short-term memory cell network. *Applied Sciences*, 14(24), 11569. https://doi.org/10.3390/app142411569
 
-Lian, J., Luo, X., Wang, H., Chen, L., Ge, B., Wu, F. X., & Wang, J. (2024). Personalized progression modelling and prediction in Parkinson's disease with a novel multi-modal graph approach. *npj Parkinson's Disease*, 10, 229. https://doi.org/10.1038/s41531-024-00832-w
+* Lian, J., Luo, X., Wang, H., Chen, L., Ge, B., Wu, F. X., & Wang, J. (2024). Personalized progression modelling and prediction in Parkinson's disease with a novel multi-modal graph approach. *npj Parkinson's Disease*, 10, 229. https://doi.org/10.1038/s41531-024-00832-w
 
-Liu, X., Li, C., Lou, X., Wang, L., & Chen, L. (2024). Epileptic seizure prediction based on EEG using pseudo-three-dimensional CNN. *Frontiers in Neuroinformatics*, 18, 1354436. https://doi.org/10.3389/fninf.2024.1354436
+* Liu, X., Li, C., Lou, X., Wang, L., & Chen, L. (2024). Epileptic seizure prediction based on EEG using pseudo-three-dimensional CNN. *Frontiers in Neuroinformatics*, 18, 1354436. https://doi.org/10.3389/fninf.2024.1354436
 
-Pelosi, A. D., Roth, N., Yehoshua, T., Tepper, M., Ashkenazy, Y., & Hausdorff, J. M. (2024). Personalized rehabilitation approach for reaching movement using reinforcement learning. *Scientific Reports*, 14, 17675. https://doi.org/10.1038/s41598-024-64514-6
+* Pelosi, A. D., Roth, N., Yehoshua, T., Tepper, M., Ashkenazy, Y., & Hausdorff, J. M. (2024). Personalized rehabilitation approach for reaching movement using reinforcement learning. *Scientific Reports*, 14, 17675. https://doi.org/10.1038/s41598-024-64514-6
 
-Peng, H., Gong, W., Beckmann, C. F., Vedaldi, A., & Smith, S. M. (2023). Accurate brain age prediction with lightweight deep neural networks. *Medical Image Analysis*, 68, 101871. https://doi.org/10.1016/j.media.2020.101871
+* Peng, H., Gong, W., Beckmann, C. F., Vedaldi, A., & Smith, S. M. (2023). Accurate brain age prediction with lightweight deep neural networks. *Medical Image Analysis*, 68, 101871. https://doi.org/10.1016/j.media.2020.101871
 
-Pinaya, W. H. L., Tudosiu, P. D., Dafflon, J., Da Costa, P. F., Fernandez, V., Nachev, P., ... & Cardoso, M. J. (2022). Brain imaging generation with latent diffusion models. In *Deep Generative Models: Second MICCAI Workshop, DGM4MICCAI 2022* (pp. 117-126). Springer. https://doi.org/10.1007/978-3-031-18576-2_12
+* Pinaya, W. H. L., Tudosiu, P. D., Dafflon, J., Da Costa, P. F., Fernandez, V., Nachev, P., ... & Cardoso, M. J. (2022). Brain imaging generation with latent diffusion models. In *Deep Generative Models: Second MICCAI Workshop, DGM4MICCAI 2022* (pp. 117-126). Springer. https://doi.org/10.1007/978-3-031-18576-2_12
 
-Stasolla, F., & Di Gioia, C. (2023). Combining reinforcement learning and virtual reality in mild neurocognitive impairment: A new usability assessment on patients and caregivers. *Frontiers in Aging Neuroscience*, 15, 1189498. https://doi.org/10.3389/fnagi.2023.1189498
+* Stasolla, F., & Di Gioia, C. (2023). Combining reinforcement learning and virtual reality in mild neurocognitive impairment: A new usability assessment on patients and caregivers. *Frontiers in Aging Neuroscience*, 15, 1189498. https://doi.org/10.3389/fnagi.2023.1189498
 
-Yin, W., Zhu, W., Gao, H., Zhao, H., Zhang, T., Zhang, C., ... & Hu, B. (2024). Gait analysis in the early stage of Parkinson's disease with a machine learning approach. *Frontiers in Neurology*, 15, 1472956. https://doi.org/10.3389/fneur.2024.1472956
+* Yin, W., Zhu, W., Gao, H., Zhao, H., Zhang, T., Zhang, C., ... & Hu, B. (2024). Gait analysis in the early stage of Parkinson's disease with a machine learning approach. *Frontiers in Neurology*, 15, 1472956. https://doi.org/10.3389/fneur.2024.1472956
 
-Yuan, C., Duan, J., Xu, K., Tustison, N. J., Hubbard, R. A., & Linn, K. A. (2024). ReMiND: Recovery of missing neuroimaging using diffusion models with application to Alzheimer's disease. *Imaging Neuroscience*, 2, 1-14. https://doi.org/10.1162/imag_a_00323
+* Yuan, C., Duan, J., Xu, K., Tustison, N. J., Hubbard, R. A., & Linn, K. A. (2024). ReMiND: Recovery of missing neuroimaging using diffusion models with application to Alzheimer's disease. *Imaging Neuroscience*, 2, 1-14. https://doi.org/10.1162/imag_a_00323
 
-Zheng, X., Wang, B., Liu, H., Sun, H., Li, M., Chen, W., & Zhang, L. (2023). Diagnosis of Alzheimer's disease via resting-state EEG: Integration of spectrum, complexity, and synchronization signal features. *Frontiers in Aging Neuroscience*, 15, 1288295. https://doi.org/10.3389/fnagi.2023.1288295
+* Zheng, X., Wang, B., Liu, H., Sun, H., Li, M., Chen, W., & Zhang, L. (2023). Diagnosis of Alzheimer's disease via resting-state EEG: Integration of spectrum, complexity, and synchronization signal features. *Frontiers in Aging Neuroscience*, 15, 1288295. https://doi.org/10.3389/fnagi.2023.1288295
 
