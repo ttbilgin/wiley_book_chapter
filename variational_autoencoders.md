@@ -76,7 +76,7 @@ Future research should focus on **multimodal VAEs** that integrate different ima
 
 * Kingma, D. P., & Welling, M. (2014). Auto-encoding variational bayes. In *International Conference on Learning Representations*. https://arxiv.org/abs/1312.6114
 
-* Kumar, S., Payne, P., & Sotiras, A. (2022). Normative Modeling using Multimodal Variational Autoencoders to Identify Abnormal Brain Structural Patterns in Alzheimer Disease. Proc SPIE Int Soc Opt Eng. 2023 Feb;12465:1246503. doi: 10.1117/12.2654369. Epub 2023 Apr 7. PMID: 38130873; PMCID: PMC10731988.
+* Kumar, S., Payne, P., & Sotiras, A. (2022). Normative Modeling using Multimodal Variational Autoencoders to Identify Abnormal Brain Structural Patterns in Alzheimer Disease. Proc SPIE Int Soc Opt Eng. 2023 Feb;12465:1246503. https://doi.org/10.1117/12.2654369. Epub 2023 Apr 7. PMID: 38130873; PMCID: PMC10731988.
 
 * Maity, S., Mandal, R. P., Bhattacharjee, S., & Chatterjee, S. (2022). Variational Autoencoder-Based Imbalanced Alzheimer Detection Using Brain MRI Images. In *Lecture Notes in Networks and Systems, Vol. 402* (pp. 533–544). Springer. https://doi.org/10.1007/978-981-19-1657-1_14
 
