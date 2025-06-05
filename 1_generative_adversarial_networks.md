@@ -16,8 +16,6 @@ $$
 L_{\text{cyc}}(G,F) = E_{x\sim p_{\text{data}}(x)}[\|F(G(x)) - x\|_1] + E_{y\sim p_{\text{data}}(y)}[\|G(F(y)) - y\|_1]
 $$
 
-<img src="https://latex.codecogs.com/svg.image?L_{cyc}(G,F)&space;=&space;E_{x\sim&space;p_{data}(x)}[||F(G(x))&space;-&space;x||_1]&space;&plus;&space;E_{y\sim&space;p_{data}(y)}[||G(F(y))&space;-&space;y||_1]" />
-
 
 where $G: X \rightarrow Y$ and $F: Y \rightarrow X$ are the mappings between domains $X$ and $Y$. This bidirectional constraint ensures both $x \rightarrow y \rightarrow x \approx x$ and $y \rightarrow x \rightarrow y \approx y$, which is essential for preserving anatomical structures in medical imaging applications.
 
