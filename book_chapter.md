@@ -127,7 +127,7 @@ For implementation, this is often approximated as: $$\mathcal{L} \approx \frac{1
 
 VAEs are widely used in medical imaging because they can augment datasets by generating realistic synthetic examples. Their probabilistic nature and smooth latent space facilitate tasks like anomaly detection (by measuring likelihood under the model) and feature extraction.
 
-## 2.2. Applications of VAEs in Neuroscience (2019–2024)
+## 2.2. Applications of VAEs in Neuroscience
 
 VAEs have been applied across neuroscience modalities (MRI, fMRI, PET, EEG) for diverse tasks (classification, progression modeling, synthesis, anomaly detection, dimensionality reduction). Recent studies include:
 
