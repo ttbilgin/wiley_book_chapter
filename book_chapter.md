@@ -1,23 +1,5 @@
 # Part II: Core Generative Techniques
 
-## 1. Generative Adversarial Networks (GANs)
-### 1.1 Fundamentals of GANs
-### 1.2 Variants of GANs for Medical Imaging
-### 1.3 GANs in Brain Imaging and Neurological Applications
-
-## 2. Variational Autoencoders (VAEs)
-### 2.1 Basics of VAEs
-### 2.2 Applications of VAEs in Neuroscience
-### 2.3 Comparing VAEs and GANs in Healthcare Research
-
-## 3. Emerging Generative Techniques
-### 3.1 Diffusion Models in Medical Applications
-### 3.2 Neural Ordinary Differential Equations in Neurological Modeling
-### 3.3 Reinforcement Learning and Generative Applications in Neurological Care
-### 3.4 Challenges Ethical Considerations and Future Directions
-
----
-
 # ABSTRACT
 
 Neurological diseases pose major challenges in modern healthcare, requiring advanced techniques for diagnosis, monitoring, and treatment. In response, artificial intelligence is emerging as a valuable tool, with generative modeling techniques offering promising advancements in medical imaging, disease monitoring, and treatment optimization.
@@ -39,6 +21,26 @@ Despite these advances, clinical integration faces significant challenges includ
 Comparative analysis reveals complementary strengths: GANs produce sharp images but may have training instability; VAEs offer stable training and interpretable latents but blurrier outputs; diffusion models achieve superior quality but require significant computational resources; Neural ODEs provide principled temporal modeling but limited practical applications; and RL enables adaptive interventions but faces interpretability challenges.
 
 The chapter examines hybrid approaches combining multiple techniques, medical-specific evaluation frameworks, and standardized validation protocols. Through comprehensive analysis of these five generative techniques, this chapter demonstrates how they form a powerful toolkit for addressing neurological disease challenges and advancing personalized, data-driven healthcare solutions.
+
+---
+
+# Table of Contents
+
+## 1. Generative Adversarial Networks (GANs)
+### 1.1 Fundamentals of GANs
+### 1.2 Variants of GANs for Medical Imaging
+### 1.3 GANs in Brain Imaging and Neurological Applications
+
+## 2. Variational Autoencoders (VAEs)
+### 2.1 Basics of VAEs
+### 2.2 Applications of VAEs in Neuroscience
+### 2.3 Comparing VAEs and GANs in Healthcare Research
+
+## 3. Emerging Generative Techniques
+### 3.1 Diffusion Models in Medical Applications
+### 3.2 Neural Ordinary Differential Equations in Neurological Modeling
+### 3.3 Reinforcement Learning and Generative Applications in Neurological Care
+### 3.4 Challenges Ethical Considerations and Future Directions
 
 ---
 
