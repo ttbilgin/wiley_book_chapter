@@ -366,7 +366,7 @@ Future studies should focus on hybrid models that combine the strengths of these
 
 * Zheng, X., Wang, B., Liu, H., Sun, H., Li, M., Chen, W., & Zhang, L. (2023). Diagnosis of Alzheimer's disease via resting-state EEG: Integration of spectrum, complexity, and synchronization signal features. *Frontiers in Aging Neuroscience*, 15, 1288295. https://doi.org/10.3389/fnagi.2023.1288295
 
-*Isola, P., Zhu, J.-Y., Zhou, T., & Efros, A. A. (2017). Image-to-image translation with conditional adversarial networks. In *Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)* (pp. 1125-1134). IEEE. https://doi.org/10.1109/CVPR.2017.632
+* Isola, P., Zhu, J.-Y., Zhou, T., & Efros, A. A. (2017). Image-to-image translation with conditional adversarial networks. In *Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)* (pp. 1125-1134). IEEE. https://doi.org/10.1109/CVPR.2017.632
 
 * Arjovsky, M., Chintala, S., & Bottou, L. (2017). Wasserstein generative adversarial networks. In *Proceedings of the 34th International Conference on Machine Learning* (Vol. 70, pp. 214-223). PMLR. Retrieved from https://proceedings.mlr.press/v70/arjovsky17a.html
 
