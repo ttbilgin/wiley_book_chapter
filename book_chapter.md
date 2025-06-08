@@ -365,3 +365,18 @@ Future studies should focus on hybrid models that combine the strengths of these
 * Yuan, C., Duan, J., Xu, K., Tustison, N. J., Hubbard, R. A., & Linn, K. A. (2024). ReMiND: Recovery of missing neuroimaging using diffusion models with application to Alzheimer's disease. *Imaging Neuroscience*, 2, 1-14. https://doi.org/10.1162/imag_a_00323
 
 * Zheng, X., Wang, B., Liu, H., Sun, H., Li, M., Chen, W., & Zhang, L. (2023). Diagnosis of Alzheimer's disease via resting-state EEG: Integration of spectrum, complexity, and synchronization signal features. *Frontiers in Aging Neuroscience*, 15, 1288295. https://doi.org/10.3389/fnagi.2023.1288295
+
+* **1. CycleGAN (Zhu et al.)**
+Zhu, J.-Y., Park, T., Isola, P., & Efros, A. A. (2017). Unpaired image-to-image translation using cycle-consistent adversarial networks. In *Proceedings of the IEEE International Conference on Computer Vision (ICCV)* (pp. 2223-2232). IEEE. https://doi.org/10.1109/ICCV.2017.244
+
+**2. Pix2Pix (Isola et al.)**
+Isola, P., Zhu, J.-Y., Zhou, T., & Efros, A. A. (2017). Image-to-image translation with conditional adversarial networks. In *Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)* (pp. 1125-1134). IEEE. https://doi.org/10.1109/CVPR.2017.632
+
+**3. WGAN (Arjovsky et al.)**
+Arjovsky, M., Chintala, S., & Bottou, L. (2017). Wasserstein generative adversarial networks. In *Proceedings of the 34th International Conference on Machine Learning* (Vol. 70, pp. 214-223). PMLR. Retrieved from https://proceedings.mlr.press/v70/arjovsky17a.html
+
+**4. WGAN-GP (Gulrajani et al.)**
+Gulrajani, I., Ahmed, F., Arjovsky, M., Dumoulin, V., & Courville, A. C. (2017). Improved training of Wasserstein GANs. In *Advances in Neural Information Processing Systems* (Vol. 30, pp. 5767-5777). Curran Associates, Inc.
+
+**5. StyleGAN (Karras et al.)**
+Karras, T., Laine, S., & Aila, T. (2019). A style-based generator architecture for generative adversarial networks. In *Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)* (pp. 4401-4410). IEEE. https://doi.org/10.1109/CVPR.2019.00453
