@@ -215,29 +215,19 @@ In this chapter, we present a brief review of the use of diffusion models, Neura
 
 Diffusion models have garnered substantial attention in the domain of brain image synthesis and data augmentation, particularly due to their ability to generate high-resolution, realistic 3D images.
 
-#### **3.1.1. Brain MRI Synthesis and Data Augmentation**
-
 One of the most comprehensive studies in this domain is by Pinaya et al. (2022), who developed a latent diffusion model capable of generating synthetic 3D brain MRI images from large-scale datasets. Using approximately 31,740 T1-weighted brain MRIs from the UK Biobank, their model generated over 100,000 synthetic MRIs conditioned on variables such as age, sex, and brain structure volumes. The public release of this synthetic dataset has provided a valuable resource for the broader research community, addressing the critical issue of data scarcity in medical imaging.
 
 Another important contribution was made by Peng et al. (2023), who proposed a conditional diffusion probabilistic model for realistic brain MRI generation. Their approach focuses on generating MRI subvolumes with anatomical consistency using slice-to-slice attention networks. This methodology is particularly advantageous in terms of memory efficiency, as it allows high-quality 3D image reconstruction without requiring extensive GPU resources.
 
-#### **3.1.2. Anomaly Detection and Inpainting**
-
 While diffusion models have shown promise in anomaly detection for medical imaging, current applications primarily focus on structural abnormalities in brain MRI. These models can be trained on normative (healthy) brain data to identify pathological deviations, offering potential applications in detecting white matter hyperintensities, multiple sclerosis lesions, and brain tumors.
 
-#### **3.1.3. Longitudinal Completion of Missing MRI Data**
-
 In longitudinal studies of disorders like Alzheimer's disease, complete temporal MRI datasets are often unavailable due to subject dropout or technical issues. To address this, Yuan et al. (2024) proposed a 3D diffusion-based model named "ReMiND" that imputes missing MRI volumes by conditioning on available prior (and optionally future) scans. Evaluated on the ADNI dataset, ReMiND outperformed forward-filling and variational autoencoder (VAE)-based methods in both imputation error and prediction of brain atrophy patterns, especially in the hippocampus.
-
-#### **3.1.4. Multiple Sclerosis Lesion Detection and MRI Synthesis**
 
 Multiple sclerosis research has benefited significantly from diffusion models and GAN-based approaches for lesion analysis and MRI synthesis. Valencia et al. (2022) developed a conditional 3D GAN using a Pix2Pix architecture for T1-weighted image synthesis from T2-FLAIR sequences. Their approach achieved improved sensitivity for new T2 lesion detection, directly addressing data scarcity issues in MS imaging protocols. The methodology was validated on clinical datasets combining T2-FLAIR and T1-weighted images, demonstrating practical relevance for standardizing MS imaging workflows.
 
 Salem et al. (2020) introduced a U-Net encoder-decoder architecture for MS lesion detection, achieving an 83% true positive rate with a 9.36% false positive rate using multi-modal MRI data (T1-w, T2-w, PD-w, FLAIR) from 60 patients. This work demonstrated how synthetic lesion generation can enhance training datasets for deep learning models in MS diagnosis.
 
 Recent advances include the Brain Latent Progression (BrLP) model from Puglisi et al. (2024), which represents the most sophisticated application of diffusion models to neurological disease progression. Using latent diffusion models with ControlNet on 11,730 T1-weighted brain MRIs from 2,805 subjects, they achieved a 22% increase in volumetric accuracy and 43% improvement in image similarity for individual-level disease progression prediction.
-
-#### **3.1.5. EEG Signal Processing and Neurological Disorder Analysis**
 
 Current research in EEG-based neurological disorder analysis primarily relies on established deep learning approaches rather than diffusion models. Recent advances include multi-feature fusion networks for Alzheimer's disease detection and graph convolutional neural networks for epilepsy prediction.
 
@@ -251,17 +241,11 @@ For epilepsy prediction, Kuang et al. (2024) implemented a sophisticated framewo
 
 Neural ordinary differential equations (Neural ODEs) offer a principled way to model the continuous-time evolution of complex systems. Their formulation is particularly advantageous in neurological contexts, where brain dynamics and disease progression are inherently gradual and temporal in nature. Traditional models such as recurrent neural networks (RNNs) or Transformers, while powerful, struggle with irregular sampling and missing timepoints that are characteristic of clinical data. Neural ODEs overcome this limitation by learning differential equations that govern the latent dynamics of data in continuous time.
 
-#### **3.2.1. Modeling Brain Dynamics Using fMRI**
-
 One of the most compelling uses of Neural ODEs in neuroscience is their application to simulating brain dynamics from functional MRI (fMRI) data. Kashyap et al. (2023) demonstrated how neural ODEs combined with LSTM networks can estimate initial conditions of Brain Network Models in reference to measured fMRI data. Their approach involved analyzing whole-brain dynamics across 407 subjects from the Human Connectome Project, allowing for a more accurate and dynamic representation of brain behavior. This work highlighted the utility of ODEs in modeling large-scale brain networks with subject-specific dynamics.
-
-#### **3.2.2. Disease Progression Modeling**
 
 While Neural ODEs show theoretical promise for disease progression modeling, current clinical applications remain limited. The field instead relies more heavily on traditional ODE approaches and advanced graph neural networks. Lian et al. (2024) developed a novel multi-modal graph approach for personalized progression modelling and prediction in Parkinson's disease, achieving superior performance over conventional methods. This approach integrates multiple data modalities to capture individual disease trajectories.
 
 For Alzheimer's disease progression, Bossa & Sahli (2023) employed a multidimensional ODE-based model that captures disease dynamics using conventional differential equation frameworks rather than neural ODEs. Their model demonstrates how mathematical modeling can provide insights into disease progression patterns.
-
-#### **3.2.3. Multiple Sclerosis Disease Progression Modeling**
 
 A significant advancement in MS research comes from Qian et al. (2021), who developed Latent Hybridisation Models (LHM) that combine expert-designed ODEs with Neural ODEs for disease progression modeling. Published at NeurIPS 2021, their framework integrates domain knowledge with data-driven approaches, outperforming baseline methods especially with limited training data. While initially demonstrated on COVID-19 intensive care data, the framework directly applies to MS disease progression and treatment optimization scenarios.
 
@@ -273,25 +257,15 @@ The integration of Neural ODEs with diffusion models shows particular promise fo
 
 Reinforcement learning (RL) has emerged as a powerful approach for developing adaptive, closed-loop decision-making systems in healthcare. In the field of neurology, RL has been applied to optimize therapeutic interventions such as deep brain stimulation (DBS), as well as to personalize rehabilitation and cognitive training.
 
-#### **3.3.1. Adaptive Deep Brain Stimulation in Parkinson's Disease**
-
 In Parkinson's disease, DBS is widely used to alleviate motor symptoms such as tremor and rigidity. Traditionally, DBS systems are open-loop, meaning that they deliver fixed stimulation parameters regardless of real-time patient response. Cho et al. (2024) tackled this limitation by developing a closed-loop deep brain stimulation system with reinforcement learning and neural simulation. They compared several agents—including Soft Actor-Critic (SAC), Twin Delayed DDPG (TD3), Proximal Policy Optimization (PPO), and Advantage Actor-Critic (A2C)—to optimize stimulation protocols using basal ganglia-thalamic computational models. The TD3 agent achieved the best performance, identifying policies that consumed significantly less energy than conventional settings while preserving motor efficacy and reducing abnormal thalamic responses. Their results illustrate the feasibility of RL-based personalized neuromodulation systems.
-
-#### **3.3.2. Rehabilitation and Movement Therapy**
 
 Beyond neuromodulation, RL has also been integrated into motor rehabilitation systems. Pelosi et al. (2024) developed a personalized rehabilitation approach for reaching movement using reinforcement learning. Their VR therapy platform enables patients to perform reaching exercises by interacting with virtual objects, where a Q-learning agent adjusts the difficulty level in real time based on the patient's kinematic performance. This approach promotes engagement and progressive motor recovery, exemplifying how RL can deliver individualized, performance-sensitive rehabilitation protocols, especially in stroke or post-operative recovery settings.
 
-#### **3.3.3. Cognitive Training in Neurodegenerative Disorders**
-
 Cognitive decline in conditions like Alzheimer's and mild neurocognitive disorder (MND) also presents opportunities for RL-driven intervention. Stasolla & Di Gioia (2023) explored the use of RL agents embedded within VR platforms to dynamically adjust the difficulty of cognitive tasks based on user behavior. Their perspective paper proposed tailored cognitive exercises that could enhance performance while improving user satisfaction and reducing caregiver burden. Such personalized digital therapies may become increasingly relevant in the early stages of dementia care.
-
-#### **3.3.4. ALS Speech Synthesis and Communication Support**
 
 Amyotrophic Lateral Sclerosis research has seen significant advances in reinforcement learning applications for speech synthesis and communication support. Regondi et al. (2025) published groundbreaking work in Scientific Reports demonstrating HiFi-GAN-based voice synthesis for personalized voice banking in ALS patients. Their system addresses progressive speech loss by generating high-quality synthetic voices with exceptional expressive and audio quality, representing direct clinical utility for patient communication support.
 
 This work is complemented by the VOC-ALS Database established by Dubbioso et al. (2024), which analyzed 1,224 voice signals from 153 participants (51 controls, 102 ALS patients). Their F0 standard deviation analysis showed excellent ability to identify ALS and dysarthria severity, providing quantitative biomarkers for disease monitoring that can be integrated with RL-based speech synthesis systems.
-
-#### **3.3.5. EMG Signal Processing for ALS Diagnosis**
 
 Sengur et al. (2017) conducted pioneering work combining DCGAN for EMG signal processing with reinforcement learning strategies, achieving 96.80% classification accuracy for ALS vs. control classification using EMG signals from 89 ALS patients and 133 controls. This represents the first reported use of reinforcement learning in ALS EMG analysis, demonstrating feasibility of synthetic EMG data generation for diagnostic applications.
 
@@ -299,7 +273,7 @@ Building on this foundation, Hazra and Byun (2021) developed SynSigGAN using bid
 
 ---
 
-### **Comparative Evaluation of Methods**
+### **3.4 Challenges Ethical Considerations and Future Directions **
 
 The reviewed methodologies—diffusion models, neural ODEs, and reinforcement learning—differ fundamentally in their mechanisms and application contexts. Diffusion models have proven most effective in data augmentation and image reconstruction, especially where training data are limited or missing. Their capacity to synthesize high-resolution MRIs has significant implications for diagnostic imaging pipelines.
 
@@ -309,28 +283,17 @@ Reinforcement learning excels in dynamic, feedback-sensitive settings. Its real-
 
 While all three approaches offer substantial benefits, their successful application depends on the task at hand. Furthermore, the models differ in terms of computational requirements, interpretability, and integration into clinical workflows. For instance, diffusion models and RL agents often suffer from "black box" opacity, raising concerns about trust and accountability in medical decision-making.
 
----
-
-### **Challenges and Ethical Considerations**
-
 Despite their promise, the deployment of these advanced models in clinical neurology is fraught with challenges. One of the most critical is data scarcity. Medical imaging and electrophysiological datasets are expensive and time-consuming to collect, and privacy regulations often hinder data sharing. Even diffusion models, which are often touted as a remedy for data scarcity, require large volumes of high-quality training data to avoid overfitting and memorization. Several studies have cautioned that diffusion models can inadvertently replicate training samples, posing potential privacy risks.
 
 Interpretability remains a persistent concern. Clinicians are understandably hesitant to rely on models whose decisions cannot be explained in human-interpretable terms. This issue is particularly acute in RL systems, which learn policies through trial-and-error exploration and are inherently difficult to audit.
 
 Bias and fairness also demand attention. If training datasets reflect demographic imbalances—such as underrepresentation of minority populations—then generative models may perpetuate or even exacerbate these biases in their outputs. Ethical deployment of such technologies requires rigorous validation, fairness audits, and transparency in both development and application phases.
 
----
-
-
----
-
-### **Conclusion and Future Directions**
-
 This chapter reviewed recent applications of deep learning-based generative models—specifically diffusion models, neural ODEs, and reinforcement learning—in the context of neurological disorders. Each technique contributes uniquely to overcoming the limitations of traditional methods. Diffusion models excel in medical image synthesis and data augmentation, Neural ODEs provide frameworks for modeling brain dynamics, and reinforcement learning enables real-time, adaptive intervention design.
 
 However, challenges remain. Data quality, interpretability, ethical safety, and fairness are all crucial for real-world integration. Current research shows that while diffusion models have achieved significant success in brain MRI applications, their extension to EEG and other neurophysiological signals remains largely unexplored. Neural ODEs show promise for brain dynamics modeling but have limited practical applications in disease progression prediction. Reinforcement learning demonstrates the strongest clinical validation across multiple neurological applications.
 
-Future work should focus on hybrid models that combine the strengths of these approaches, the development of explainable AI frameworks for clinical applications, and the integration of multimodal datasets (e.g., MRI + PET + EEG). As the field evolves, these methods are likely to play a transformative role in patient-specific diagnosis and treatment planning.
+Future studies should focus on hybrid models that combine the strengths of these approaches, the development of explainable AI frameworks for clinical applications, and the integration of multimodal datasets (e.g., MRI + PET + EEG). As the field evolves, these methods are likely to play a transformative role in patient-specific diagnosis and treatment planning.
 
 ---
 
