@@ -273,7 +273,7 @@ Building on this foundation, Hazra and Byun (2021) developed SynSigGAN using bid
 
 ---
 
-### **3.4 Challenges Ethical Considerations and Future Directions **
+### **3.4 Challenges Ethical Considerations and Future Directions**
 
 The reviewed methodologies—diffusion models, neural ODEs, and reinforcement learning—differ fundamentally in their mechanisms and application contexts. Diffusion models have proven most effective in data augmentation and image reconstruction, especially where training data are limited or missing. Their capacity to synthesize high-resolution MRIs has significant implications for diagnostic imaging pipelines.
 
