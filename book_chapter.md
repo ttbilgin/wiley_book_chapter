@@ -78,7 +78,7 @@ For example, *CycleGAN* has been extensively used to convert images across modal
 
 ![image](https://github.com/user-attachments/assets/7e9caf58-e559-4e94-bee6-ed741a2109a3)
 
-**Fig. 4. Overview of the BPGAN (Zhang et al. (2022))**
+**Fig. 1. Overview of the BPGAN (Zhang et al. (2022))**
 
 Similarly, *WGAN* and *WGAN-GP* have been used for reconstructing undersampled MRI or generating high-quality synthetic images without mode collapse. For example, Zhang et al. (2022) proposed a 3D WGAN-GP variant (BPGAN) to generate PET images from MRI scans in Alzheimer's research. Their generator was a 3D U-Net, and WGAN-GP stabilization allowed the synthetic PET to improve multi-class AD diagnosis by approximately 1% over MRI alone. In image enhancement, GANs have enabled super-resolution: Costa de Farias et al. (2021) introduced a lesion-focused GAN (GAN-CIRCLE with Spatial Pyramid Pooling) to super-resolve lung tumor patches in CT images. At 2× resolution, their GAN produced sharper, more detailed images than other SR methods. They showed that radiomic features extracted from GAN-super-resolved images were more robust to quantization, indicating improved image quality.
 
