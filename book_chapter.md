@@ -84,7 +84,9 @@ Similarly, *WGAN* and *WGAN-GP* have been used for reconstructing undersampled M
 
 More recent high-resolution generators like *StyleGAN* and progressive GANs have also been used in medical imaging. For brain tumor imaging, Akbar et al. (2024) evaluated StyleGAN and ProGAN for synthesizing tumor MRI scans. They found that segmentation networks trained on GAN-generated brain tumor images achieved 80–90% of the Dice score of models trained on real images. While this demonstrates the potential of synthetic data augmentation, it also highlights the performance gap that currently exists between synthetic and real data training approaches. Similarly, StyleGAN has been applied to generate photorealistic histopathology images for data augmentation and style transfer.
 
-The following table summarizes representative GAN-based medical imaging studies (2019–2024), indicating the GAN variant, imaging modality, task, and reported performance:
+Table 1 summarizes representative GAN-based medical imaging studies, indicating the GAN variant, imaging modality, task, and reported performance:
+
+### **Table 1. Summary of Representative GAN-based Medical Imaging Studies**
 
 | Study (Year)                    | GAN Variant                               | Modality                 | Task                                              | Key Results / Performance                                                                                                                         |
 | ------------------------------- | ----------------------------------------- | ------------------------ | ------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -141,7 +143,9 @@ VAEs are widely used in medical imaging because they can augment datasets by gen
 
 ## 2.2. Applications of VAEs in Neuroscience
 
-VAEs have been applied across neuroscience modalities (MRI, fMRI, PET, EEG) for diverse tasks (classification, progression modeling, synthesis, anomaly detection, dimensionality reduction). Recent studies include:
+VAEs have been applied across neuroscience modalities (MRI, fMRI, PET, EEG) for diverse tasks (classification, progression modeling, synthesis, anomaly detection, dimensionality reduction). As shown in Table 2 Recent studies include:
+
+### **Table 2. Summary of Applications of VAEs in Neuroscience Studies**
 
 | Study (Year)              | Data Type (Modality)      | Task / Disease                                  | VAE Model                              | Key Findings                                                                                                                                                                                                                                                                                      |
 | ------------------------- | ------------------------- | ----------------------------------------------- | -------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -164,7 +168,9 @@ Variational Autoencoders (VAEs) and Generative Adversarial Networks (GANs) are t
 
 * **Disease Progression Modeling:** VAEs (especially *conditional VAEs*) naturally model distributions and can generate plausible future observations. For example, VAEs have been used to simulate disease progression by sampling from learned trajectories. GANs can likewise generate longitudinal images (e.g. by conditioning on time), but require more complex adversarial setups. GANs may produce more realistic individual scans, but VAEs provide explicit likelihoods and smooth interpolation over disease stages.
 
-* **Representation Learning & Interpretability:** VAEs yield an explicit latent space with a known prior, making them more interpretable: the latent dimensions capture meaningful features of the data. In contrast, GAN latent spaces lack an explicit probability model and are harder to interrogate. As a result, VAEs are often preferred when a low-dimensional embedding or feature attribution is needed (e.g. for biomarker discovery). 
+* **Representation Learning & Interpretability:** VAEs yield an explicit latent space with a known prior, making them more interpretable: the latent dimensions capture meaningful features of the data. In contrast, GAN latent spaces lack an explicit probability model and are harder to interrogate. As a result, VAEs are often preferred when a low-dimensional embedding or feature attribution is needed (e.g. for biomarker discovery).
+
+### **Table 3. Summary of XXX Studies**
 
 | **Application/Task**               | **VAE (Advantages)**                                                                                     | **GAN (Advantages)**                                                                      | **Remarks**                                                                                                                                            |
 | ---------------------------------- | -------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
