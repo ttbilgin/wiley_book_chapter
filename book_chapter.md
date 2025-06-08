@@ -62,7 +62,7 @@ $$
 
 where $G: X \rightarrow Y$ and $F: Y \rightarrow X$ are the mappings between domains $X$ and $Y$. This bidirectional constraint ensures both $x \rightarrow y \rightarrow x \approx x$ and $y \rightarrow x \rightarrow y \approx y$, which is essential for preserving anatomical structures in medical imaging applications.
 
-Standard GAN training can be unstable (mode collapse, vanishing gradients), so improved variants have been proposed. Wasserstein GANs (WGANs) replace the Jensen–Shannon divergence with the Earth-Mover (Wasserstein) distance, which yields smoother gradients and mitigates mode collapse. WGAN enforces a Lipschitz constraint (e.g. weight clipping) to compute the Wasserstein distance between real and generated distributions. The WGAN-GP variant adds a gradient penalty to enforce the Lipschitz condition without weight clipping. These loss modifications improve training stability at the cost of additional complexity. 
+Standard GAN training can be unstable (mode collapse, vanishing gradients), so improved variants have been proposed. Wasserstein GANs (WGANs; Arjovsky et al., 2017) replace the Jensen–Shannon divergence with the Earth-Mover (Wasserstein) distance, which yields smoother gradients and mitigates mode collapse. WGAN enforces a Lipschitz constraint (e.g. weight clipping) to compute the Wasserstein distance between real and generated distributions. The WGAN-GP (Gulrajani et al., 2017) variant adds a gradient penalty to enforce the Lipschitz condition without weight clipping. These loss modifications improve training stability at the cost of additional complexity. 
 
 Overall, GANs are versatile generative models: they can produce synthetic images that mimic a target distribution, and under adversarial training the generator learns to capture the real data distribution. Mathematically, GANs attempt to solve the two-player game
 
@@ -72,7 +72,7 @@ often augmented with additional terms (e.g. conditional losses, cycle consistenc
 
 ## 1.2 Variants of GANs for Medical Imaging
 
-In recent years, many GAN architectures have been adapted to medical imaging tasks. Typical variants include **DCGAN** (deep convolutional GAN for realistic image synthesis), **Pix2Pix** (paired image-to-image translation using cGAN), **CycleGAN** (unpaired translation with cycle consistency), **WGAN** (Wasserstein GAN with improved stability), **WGAN-GP** (with gradient penalty), **StyleGAN** (progressive growing and style-based generation for high-resolution images), and **Pix2PixHD**, **ProGAN**, etc. These have been applied to all major modalities (MRI, CT, X-ray, PET, ultrasound) and tasks like image synthesis, reconstruction, segmentation, and enhancement.
+In recent years, many GAN architectures have been adapted to medical imaging tasks. Typical variants include **DCGAN** (deep convolutional GAN for realistic image synthesis), **Pix2Pix** (paired image-to-image translation using cGAN), **CycleGAN** (unpaired translation with cycle consistency), **WGAN** (Wasserstein GAN with improved stability), **WGAN-GP** (with gradient penalty), **StyleGAN** ((Karras et al., 2019; progressive growing and style-based generation for high-resolution images), and **Pix2PixHD**, **ProGAN**, etc. These have been applied to all major modalities (MRI, CT, X-ray, PET, ultrasound) and tasks like image synthesis, reconstruction, segmentation, and enhancement.
 
 For example, *CycleGAN* has been extensively used to convert images across modalities when paired data are scarce. Zhu et al.'s CycleGAN learns inverse mappings $G_{X\to Y}$ and $G_{Y\to X}$ with a cycle-consistency loss. In medical imaging, CycleGAN has been used to synthesize CT from MRI for radiotherapy planning, or to translate between different MRI contrasts. *Pix2Pix* (a cGAN) has been applied to segmentation by treating the segmentation mask as the target image. For instance, Cai et al. (2024) applied a Pix2Pix-based GAN to lung CT segmentation: the model translated raw CT slices to binary lung masks and achieved higher accuracy than a standard U-Net baseline.
 
@@ -366,15 +366,10 @@ Future studies should focus on hybrid models that combine the strengths of these
 
 * Zheng, X., Wang, B., Liu, H., Sun, H., Li, M., Chen, W., & Zhang, L. (2023). Diagnosis of Alzheimer's disease via resting-state EEG: Integration of spectrum, complexity, and synchronization signal features. *Frontiers in Aging Neuroscience*, 15, 1288295. https://doi.org/10.3389/fnagi.2023.1288295
 
+*Isola, P., Zhu, J.-Y., Zhou, T., & Efros, A. A. (2017). Image-to-image translation with conditional adversarial networks. In *Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)* (pp. 1125-1134). IEEE. https://doi.org/10.1109/CVPR.2017.632
 
-**2. Pix2Pix (Isola et al.)**
-Isola, P., Zhu, J.-Y., Zhou, T., & Efros, A. A. (2017). Image-to-image translation with conditional adversarial networks. In *Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)* (pp. 1125-1134). IEEE. https://doi.org/10.1109/CVPR.2017.632
+* Arjovsky, M., Chintala, S., & Bottou, L. (2017). Wasserstein generative adversarial networks. In *Proceedings of the 34th International Conference on Machine Learning* (Vol. 70, pp. 214-223). PMLR. Retrieved from https://proceedings.mlr.press/v70/arjovsky17a.html
 
-**3. WGAN (Arjovsky et al.)**
-Arjovsky, M., Chintala, S., & Bottou, L. (2017). Wasserstein generative adversarial networks. In *Proceedings of the 34th International Conference on Machine Learning* (Vol. 70, pp. 214-223). PMLR. Retrieved from https://proceedings.mlr.press/v70/arjovsky17a.html
+* Gulrajani, I., Ahmed, F., Arjovsky, M., Dumoulin, V., & Courville, A. C. (2017). Improved training of Wasserstein GANs. In *Advances in Neural Information Processing Systems* (Vol. 30, pp. 5767-5777). Curran Associates, Inc.
 
-**4. WGAN-GP (Gulrajani et al.)**
-Gulrajani, I., Ahmed, F., Arjovsky, M., Dumoulin, V., & Courville, A. C. (2017). Improved training of Wasserstein GANs. In *Advances in Neural Information Processing Systems* (Vol. 30, pp. 5767-5777). Curran Associates, Inc.
-
-**5. StyleGAN (Karras et al.)**
-Karras, T., Laine, S., & Aila, T. (2019). A style-based generator architecture for generative adversarial networks. In *Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)* (pp. 4401-4410). IEEE. https://doi.org/10.1109/CVPR.2019.00453
+* Karras, T., Laine, S., & Aila, T. (2019). A style-based generator architecture for generative adversarial networks. In *Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)* (pp. 4401-4410). IEEE. https://doi.org/10.1109/CVPR.2019.00453
