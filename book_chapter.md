@@ -309,10 +309,6 @@ Future studies should focus on hybrid models that combine the strengths of these
 
 ## References
 
-Elbette, sağladığınız referans listesini ilk yazarın soyadına göre alfabetik olarak sıraladım. İşte düzenlenmiş liste:
-
-***
-
 * **Akbar, M. U., Larsson, M., Blystad, I., & Eklund, A. (2024).** Brain tumor segmentation using synthetic MR images – A comparison of GANs and diffusion models. *Scientific Data, 11*, 259. [https://doi.org/10.1038/s41597-024-03073-x](https://doi.org/10.1038/s41597-024-03073-x)
 * **Arjovsky, M., Chintala, S., & Bottou, L. (2017).** Wasserstein generative adversarial networks. In *Proceedings of the 34th International Conference on Machine Learning* (Vol. 70, pp. 214-223). PMLR. Retrieved from https://proceedings.mlr.press/v70/arjovsky17a.html
 * **Bossa, M. N., & Sahli, H. (2023).** A multidimensional ODE-based model of Alzheimer's disease progression. *Scientific Reports*, 13, 3162. https://doi.org/10.1038/s41598-023-29383-5
