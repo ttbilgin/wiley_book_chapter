@@ -183,7 +183,31 @@ Future research should focus on **multimodal VAEs** that integrate different ima
 
 Deep learning-based generative models—such as diffusion models, neural ordinary differential equations (Neural ODEs), and reinforcement learning (RL)—are offering new possibilities for diagnosing, monitoring, and treating neurological disorders. However, one of the most pressing limitations in this field lies in the restricted number of available medical imaging datasets. Clinical datasets often contain only a few thousand samples, limiting the generalizability of models and hindering their application in real-world clinical settings. To overcome these limitations, synthetic data generation has emerged as a highly promising avenue. By using diffusion models, realistic brain images can be generated to diversify and expand existing datasets, leading to improvements in model performance.
 
-In this chapter, we present a systematic review of the use of diffusion models, Neural ODEs, and reinforcement learning in addressing major neurological disorders, including Alzheimer's disease, Parkinson's disease, epilepsy, multiple sclerosis (MS), and amyotrophic lateral sclerosis (ALS). We examine key publications from the last five years, highlighting methodological innovations, application domains, and performance benchmarks.
+In this chapter, we present a brief review of the use of diffusion models, Neural ODEs, and reinforcement learning in addressing major neurological disorders, including Alzheimer's disease, Parkinson's disease, epilepsy, multiple sclerosis (MS), and amyotrophic lateral sclerosis (ALS). We examine key publications from the last five years, highlighting methodological innovations, application domains, and performance benchmarks (Table 4.).
+
+### **Table 4. Summary of Reviewed Studies**
+
+| Neurological Disorder | Study (Year)               | Methodology                        | Data Type                  | Key Findings                                                                |
+| --------------------- | -------------------------- | ---------------------------------- | -------------------------- | --------------------------------------------------------------------------- |
+| Alzheimer's Disease   | Chen et al. (2023)         | Multi-feature Fusion Network      | EEG (Resting State)        | Integrated spectral, temporal, and spatial features for improved AD diagnosis |
+|                       | Yuan et al. (2024)         | 3D Diffusion Model (ReMiND)       | MRI (ADNI longitudinal)    | Imputed missing MRIs; accurately predicted hippocampal atrophy               |
+|                       | Bossa & Sahli (2023)       | Multidimensional ODE Model        | Clinical Data              | Modeled AD progression using conventional differential equations              |
+|                       | Pinaya et al. (2022)       | Latent Diffusion Model            | MRI (UK Biobank)           | Generated 100,000+ synthetic brain MRIs from 31,740 real images             |
+|                       | Zheng et al. (2023)        | Integrated Feature Analysis       | EEG (Resting State)        | Combined spectrum, complexity, and synchronization features for AD diagnosis  |
+| Parkinson's Disease   | Cho et al. (2024)          | RL (TD3, PPO, A2C, SAC)           | DBS Simulations            | Optimized closed-loop DBS with significant energy reduction                  |
+|                       | Lian et al. (2024)         | Multi-modal Graph Networks        | Clinical Multimodal Data   | Personalized progression prediction using graph neural networks              |
+|                       | Yin et al. (2024)          | Machine Learning Gait Analysis    | Gait Movement Data         | Early-stage PD detection using wearable sensors and ML algorithms           |
+| Epilepsy              | Kuang et al. (2024)        | GCN + LSTM Networks               | Multi-channel EEG          | Combined spatial and temporal modeling for seizure prediction                |
+|                       | Liu et al. (2024)          | Pseudo-3D CNN                     | EEG Signals                | Improved seizure prediction using 3D convolutional approaches               |
+| Multiple Sclerosis    | Valencia et al. (2022)     | Conditional 3D GAN (Pix2Pix)     | MRI (T2-FLAIR → T1-w)      | Improved sensitivity for new T2 lesion detection using synthetic T1 images   |
+|                       | Salem et al. (2020)        | U-Net GAN                         | Multi-modal MRI            | 83% true positive rate, 9.36% false positive rate for lesion detection      |
+|                       | Puglisi et al. (2024)      | Latent Diffusion (BrLP model)    | T1-weighted MRI (11,730)   | 22% increase in volumetric accuracy, 43% improvement in image similarity     |
+| ALS                   | Regondi et al. (2025)      | HiFi-GAN                          | Voice/Speech Signals       | High-quality synthetic voice generation for personalized voice banking       |
+|                       | Sengur et al. (2017)       | DCGAN + Reinforcement Learning    | EMG Signals                | 96.80% classification accuracy for ALS vs. control using synthetic EMG data  |
+|                       | Hazra & Byun (2021)        | SynSigGAN (BiLSTM-CNN)           | Biomedical Signals (EMG)   | Automated biomedical signal generation addressing data scarcity in ALS       |
+| Cognitive Decline     | Stasolla & Di Gioia (2023) | RL in Virtual Reality             | Cognitive Task Performance | Proposed personalized difficulty adjustment for cognitive training           |
+| Motor Rehabilitation  | Pelosi et al. (2024)       | Q-learning in VR Environment      | Kinematic Movement Data    | Adaptive rehabilitation improved patient motor recovery outcomes             |
+
 
 ---
 
@@ -297,28 +321,6 @@ Bias and fairness also demand attention. If training datasets reflect demographi
 
 ---
 
-### **Summary of Reviewed Studies**
-
-| Neurological Disorder | Study (Year)               | Methodology                        | Data Type                  | Key Findings                                                                |
-| --------------------- | -------------------------- | ---------------------------------- | -------------------------- | --------------------------------------------------------------------------- |
-| Alzheimer's Disease   | Chen et al. (2023)         | Multi-feature Fusion Network      | EEG (Resting State)        | Integrated spectral, temporal, and spatial features for improved AD diagnosis |
-|                       | Yuan et al. (2024)         | 3D Diffusion Model (ReMiND)       | MRI (ADNI longitudinal)    | Imputed missing MRIs; accurately predicted hippocampal atrophy               |
-|                       | Bossa & Sahli (2023)       | Multidimensional ODE Model        | Clinical Data              | Modeled AD progression using conventional differential equations              |
-|                       | Pinaya et al. (2022)       | Latent Diffusion Model            | MRI (UK Biobank)           | Generated 100,000+ synthetic brain MRIs from 31,740 real images             |
-|                       | Zheng et al. (2023)        | Integrated Feature Analysis       | EEG (Resting State)        | Combined spectrum, complexity, and synchronization features for AD diagnosis  |
-| Parkinson's Disease   | Cho et al. (2024)          | RL (TD3, PPO, A2C, SAC)           | DBS Simulations            | Optimized closed-loop DBS with significant energy reduction                  |
-|                       | Lian et al. (2024)         | Multi-modal Graph Networks        | Clinical Multimodal Data   | Personalized progression prediction using graph neural networks              |
-|                       | Yin et al. (2024)          | Machine Learning Gait Analysis    | Gait Movement Data         | Early-stage PD detection using wearable sensors and ML algorithms           |
-| Epilepsy              | Kuang et al. (2024)        | GCN + LSTM Networks               | Multi-channel EEG          | Combined spatial and temporal modeling for seizure prediction                |
-|                       | Liu et al. (2024)          | Pseudo-3D CNN                     | EEG Signals                | Improved seizure prediction using 3D convolutional approaches               |
-| Multiple Sclerosis    | Valencia et al. (2022)     | Conditional 3D GAN (Pix2Pix)     | MRI (T2-FLAIR → T1-w)      | Improved sensitivity for new T2 lesion detection using synthetic T1 images   |
-|                       | Salem et al. (2020)        | U-Net GAN                         | Multi-modal MRI            | 83% true positive rate, 9.36% false positive rate for lesion detection      |
-|                       | Puglisi et al. (2024)      | Latent Diffusion (BrLP model)    | T1-weighted MRI (11,730)   | 22% increase in volumetric accuracy, 43% improvement in image similarity     |
-| ALS                   | Regondi et al. (2025)      | HiFi-GAN                          | Voice/Speech Signals       | High-quality synthetic voice generation for personalized voice banking       |
-|                       | Sengur et al. (2017)       | DCGAN + Reinforcement Learning    | EMG Signals                | 96.80% classification accuracy for ALS vs. control using synthetic EMG data  |
-|                       | Hazra & Byun (2021)        | SynSigGAN (BiLSTM-CNN)           | Biomedical Signals (EMG)   | Automated biomedical signal generation addressing data scarcity in ALS       |
-| Cognitive Decline     | Stasolla & Di Gioia (2023) | RL in Virtual Reality             | Cognitive Task Performance | Proposed personalized difficulty adjustment for cognitive training           |
-| Motor Rehabilitation  | Pelosi et al. (2024)       | Q-learning in VR Environment      | Kinematic Movement Data    | Adaptive rehabilitation improved patient motor recovery outcomes             |
 
 ---
 
