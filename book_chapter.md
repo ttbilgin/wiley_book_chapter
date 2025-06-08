@@ -77,7 +77,8 @@ In recent years, many GAN architectures have been adapted to medical imaging tas
 For example, *CycleGAN* has been extensively used to convert images across modalities when paired data are scarce. Zhu et al.'s CycleGAN learns inverse mappings $G_{X\to Y}$ and $G_{Y\to X}$ with a cycle-consistency loss. In medical imaging, CycleGAN has been used to synthesize CT from MRI for radiotherapy planning, or to translate between different MRI contrasts. *Pix2Pix* (a cGAN) has been applied to segmentation by treating the segmentation mask as the target image. For instance, Cai et al. (2024) applied a Pix2Pix-based GAN to lung CT segmentation: the model translated raw CT slices to binary lung masks and achieved higher accuracy than a standard U-Net baseline.
 
 ![image](https://github.com/user-attachments/assets/7e9caf58-e559-4e94-bee6-ed741a2109a3)
-Fig. 4. Overview of the BPGAN (Zhang et al. (2022))
+
+**Fig. 4. Overview of the BPGAN (Zhang et al. (2022))**
 
 Similarly, *WGAN* and *WGAN-GP* have been used for reconstructing undersampled MRI or generating high-quality synthetic images without mode collapse. For example, Zhang et al. (2022) proposed a 3D WGAN-GP variant (BPGAN) to generate PET images from MRI scans in Alzheimer's research. Their generator was a 3D U-Net, and WGAN-GP stabilization allowed the synthetic PET to improve multi-class AD diagnosis by approximately 1% over MRI alone. In image enhancement, GANs have enabled super-resolution: Costa de Farias et al. (2021) introduced a lesion-focused GAN (GAN-CIRCLE with Spatial Pyramid Pooling) to super-resolve lung tumor patches in CT images. At 2× resolution, their GAN produced sharper, more detailed images than other SR methods. They showed that radiomic features extracted from GAN-super-resolved images were more robust to quantization, indicating improved image quality.
 
