@@ -309,67 +309,46 @@ Future studies should focus on hybrid models that combine the strengths of these
 
 ## References
 
-* Akbar, M. U., Larsson, M., Blystad, I., & Eklund, A. (2024). **Brain tumor segmentation using synthetic MR images – A comparison of GANs and diffusion models.** *Scientific Data, 11*, 259. [https://doi.org/10.1038/s41597-024-03073-x](https://doi.org/10.1038/s41597-024-03073-x)
-* Bossa, M. N., Nakshathri, A. G., Díaz Berenguer, A., & Sahli, H. (2024). **Generative AI unlocks PET insights: Brain amyloid dynamics and quantification.** *Frontiers in Aging Neuroscience, 16*, 1410844. [https://doi.org/10.3389/fnagi.2024.1410844](https://doi.org/10.3389/fnagi.2024.1410844)
-* Cai, J., Zhu, H., Liu, S., Qi, Y., & Chen, R. (2024). **Lung image segmentation via generative adversarial networks.** *Frontiers in Physiology, 15*, 1408832. [https://doi.org/10.3389/fphys.2024.1408832](https://doi.org/10.3389/fphys.2024.1408832)
-* Costa de Farias, E., di Noia, C., Han, C., Sala, E., & Castelli, M. (2021). **Impact of GAN-based lesion-focused medical image super-resolution on the robustness of radiomic features.** *Scientific Reports, 11*, 21361. [https://doi.org/10.1038/s41598-021-00898-z](https://doi.org/10.1038/s41598-021-00898-z)
-* Dubbioso, R., Pellegrino, G., Antenora, A., et al. (2024). **Voice signals database of ALS patients with different dysarthria severity and healthy controls.** *Scientific Data*, 11, 597. https://doi.org/10.1038/s41597-024-03597-2
-* Gulakala, R., Markert, B., & Stoffel, M. (2022). **Generative adversarial network based data augmentation for CNN based detection of COVID-19.** *Scientific Reports, 12*, 19186. [https://doi.org/10.1038/s41598-022-23692-x](https://doi.org/10.1038/s41598-022-23692-x)
-* Hazra, A., & Byun, Y. C. (2021). **SynSigGAN: Generative adversarial networks for synthetic biomedical signal generation.** *Biology*, 9(12), 441. https://doi.org/10.3390/biology9120441
-* Puglisi, G., Ribeiro, A. H., Lorenzi, M., et al. (2024). **Enhancing spatiotemporal disease progression models via latent diffusion and prior knowledge.** In *Medical Image Computing and Computer Assisted Intervention – MICCAI 2024* (pp. 178-188). Springer. https://doi.org/10.1007/978-3-031-72069-7_17
-* Qian, Z., Zame, W. R., Fleuren, L. M., et al. (2021). **Integrating expert ODEs into neural ODEs: Pharmacology and disease progression.** *Advances in Neural Information Processing Systems*, 34, 15833-15845. https://proceedings.neurips.cc/paper/2021/hash/5ea1649a31336092c05438df996a3e59-Abstract.html
-* Regondi, S., Celardo, A., Pugliese, R., et al. (2025). **Artificial intelligence empowered voice generation for amyotrophic lateral sclerosis patients.** *Scientific Reports*, 15, 1247. https://doi.org/10.1038/s41598-024-84728-y
-* Salem, M., Cabezas, M., Valverde, S., et al. (2020). **A fully convolutional neural network for new T2-w lesion detection in multiple sclerosis.** *NeuroImage: Clinical*, 25, 102149. https://doi.org/10.1016/j.nicl.2019.102149
-* Sengur, A., Akbulut, Y., Guo, Y., & Bajaj, V. (2017). **Classification of amyotrophic lateral sclerosis disease based on convolutional neural network and reinforcement sample learning algorithm.** *Health Information Science and Systems*, 5, 9. https://doi.org/10.1007/s13755-017-0033-4
-* Valencia, L. M., Dyrby, T. B., Lunau Fernandez, M., et al. (2022). **Evaluating the use of synthetic T1-w images in new T2 lesion detection in multiple sclerosis.** *Frontiers in Neuroscience*, 16, 954662. https://doi.org/10.3389/fnins.2022.954662
-* Zhang, J., He, X., Qing, L., Gao, F., & Wang, B. (2022). **BPGAN: Brain PET synthesis from MRI using generative adversarial network for multi-modal Alzheimer's disease diagnosis.** *Computer Methods and Programs in Biomedicine, 217*, 106676. [https://doi.org/10.1016/j.cmpb.2022.106676](https://doi.org/10.1016/j.cmpb.2022.106676)
+Elbette, sağladığınız referans listesini ilk yazarın soyadına göre alfabetik olarak sıraladım. İşte düzenlenmiş liste:
 
-* Zhu, J. Y., Park, T., Isola, P., & Efros, A. A. (2017). **Unpaired image-to-image translation using cycle-consistent adversarial networks.** *Proceedings of the IEEE International Conference on Computer Vision*, 2223-2232. [https://doi.org/10.1109/ICCV.2017.244](https://doi.org/10.1109/ICCV.2017.244)
+***
 
-* Han, K., Wen, H., Shi, J., Lu, K.-H., Zhang, Y., Di, F., & Liu, Z. (2019). Variational autoencoder: An unsupervised model for encoding and decoding fMRI activity in visual cortex. *NeuroImage*, 198, 125–136. https://doi.org/10.1016/j.neuroimage.2019.05.039
-
-* Hassanaly, R., Brianceau, C., Colliot, O., & Burgos, N. (2024). Unsupervised Anomaly Detection in 3D Brain FDG-PET: A Benchmark of 17 VAE-Based Approaches. In *Deep Generative Models (MICCAI 2023), LNCS 14533*, 110–120. https://doi.org/10.1007/978-3-031-53767-7_11
-  
-* He, R., Ang, G., Tward, D., for the Alzheimer's Disease Neuroimaging Initiative. (2025). Individualized Multi-horizon MRI Trajectory Prediction for Alzheimer's Disease. In: Schroder, A., et al. Medical Image Computing and Computer Assisted Intervention – MICCAI 2024 Workshops. MICCAI 2024. Lecture Notes in Computer Science, vol 15401. Springer, Cham. https://doi.org/10.1007/978-3-031-84525-3_3
-
-* Kim, J.-H., Zhang, Y., Han, K., Wen, Z., Choi, M., & Liu, Z. (2021). Representation learning of resting state fMRI with variational autoencoder. *NeuroImage*, 241, 118423. https://doi.org/10.1016/j.neuroimage.2021.118423
-
-* Kumar, S., Payne, P., & Sotiras, A. (2022). Normative Modeling using Multimodal Variational Autoencoders to Identify Abnormal Brain Structural Patterns in Alzheimer Disease. Proc SPIE Int Soc Opt Eng. 2023 Feb;12465:1246503. https://doi.org/10.1117/12.2654369. Epub 2023 Apr 7. PMID: 38130873; PMCID: PMC10731988.
-
-* Yue, Y., De Ridder, D., Manning, P., Deng, J.D. (2025). Variational Autoencoder Learns Better Feature Representations for EEG-Based Obesity Classification. In: Antonacopoulos, A., Chaudhuri, S., Chellappa, R., Liu, CL., Bhattacharya, S., Pal, U. (eds) Pattern Recognition. ICPR 2024. Lecture Notes in Computer Science, vol 15323. Springer, Cham. https://doi.org/10.1007/978-3-031-78347-0_12
-
-* Bossa, M. N., & Sahli, H. (2023). A multidimensional ODE-based model of Alzheimer's disease progression. *Scientific Reports*, 13, 3162. https://doi.org/10.1038/s41598-023-29383-5
-
-* Chen, Y., Wang, H., Zhang, D., Zhang, L., & Tao, L. (2023). Multi-feature fusion learning for Alzheimer's disease prediction using EEG signals in resting state. *Frontiers in Neuroscience*, 17, 1272834. https://doi.org/10.3389/fnins.2023.1272834
-
-* Cho, C. H., Huang, P. J., Chen, M. C., & Lin, C. W. (2024). Closed-loop deep brain stimulation with reinforcement learning and neural simulation. *IEEE Transactions on Neural Systems and Rehabilitation Engineering*, 32, 3615-3624. https://doi.org/10.1109/TNSRE.2024.3465243
-
-* Kashyap, S., Sanz-Leon, P., & Breakspear, M. (2023). A deep learning approach to estimating initial conditions of brain network models in reference to measured fMRI data. *Frontiers in Neuroscience*, 17, 1159914. https://doi.org/10.3389/fnins.2023.1159914
-
-* Kuang, Z., Liu, S., Zhao, J., Wang, L., & Li, Y. (2024). Epilepsy EEG seizure prediction based on the combination of graph convolutional neural network combined with long- and short-term memory cell network. *Applied Sciences*, 14(24), 11569. https://doi.org/10.3390/app142411569
-
-* Lian, J., Luo, X., Wang, H., Chen, L., Ge, B., Wu, F. X., & Wang, J. (2024). Personalized progression modelling and prediction in Parkinson's disease with a novel multi-modal graph approach. *npj Parkinson's Disease*, 10, 229. https://doi.org/10.1038/s41531-024-00832-w
-
-* Liu, X., Li, C., Lou, X., Wang, L., & Chen, L. (2024). Epileptic seizure prediction based on EEG using pseudo-three-dimensional CNN. *Frontiers in Neuroinformatics*, 18, 1354436. https://doi.org/10.3389/fninf.2024.1354436
-
-* Pelosi, A. D., Roth, N., Yehoshua, T., Tepper, M., Ashkenazy, Y., & Hausdorff, J. M. (2024). Personalized rehabilitation approach for reaching movement using reinforcement learning. *Scientific Reports*, 14, 17675. https://doi.org/10.1038/s41598-024-64514-6
-
-* Peng, H., Gong, W., Beckmann, C. F., Vedaldi, A., & Smith, S. M. (2023). Accurate brain age prediction with lightweight deep neural networks. *Medical Image Analysis*, 68, 101871. https://doi.org/10.1016/j.media.2020.101871
-
-* Pinaya, W. H. L., Tudosiu, P. D., Dafflon, J., Da Costa, P. F., Fernandez, V., Nachev, P., ... & Cardoso, M. J. (2022). Brain imaging generation with latent diffusion models. In *Deep Generative Models: Second MICCAI Workshop, DGM4MICCAI 2022* (pp. 117-126). Springer. https://doi.org/10.1007/978-3-031-18576-2_12
-
-* Stasolla, F., & Di Gioia, C. (2023). Combining reinforcement learning and virtual reality in mild neurocognitive impairment: A new usability assessment on patients and caregivers. *Frontiers in Aging Neuroscience*, 15, 1189498. https://doi.org/10.3389/fnagi.2023.1189498
-
-* Yin, W., Zhu, W., Gao, H., Zhao, H., Zhang, T., Zhang, C., ... & Hu, B. (2024). Gait analysis in the early stage of Parkinson's disease with a machine learning approach. *Frontiers in Neurology*, 15, 1472956. https://doi.org/10.3389/fneur.2024.1472956
-
-* Yuan, C., Duan, J., Xu, K., Tustison, N. J., Hubbard, R. A., & Linn, K. A. (2024). ReMiND: Recovery of missing neuroimaging using diffusion models with application to Alzheimer's disease. *Imaging Neuroscience*, 2, 1-14. https://doi.org/10.1162/imag_a_00323
-
-* Zheng, X., Wang, B., Liu, H., Sun, H., Li, M., Chen, W., & Zhang, L. (2023). Diagnosis of Alzheimer's disease via resting-state EEG: Integration of spectrum, complexity, and synchronization signal features. *Frontiers in Aging Neuroscience*, 15, 1288295. https://doi.org/10.3389/fnagi.2023.1288295
-
-* Isola, P., Zhu, J.-Y., Zhou, T., & Efros, A. A. (2017). Image-to-image translation with conditional adversarial networks. In *Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)* (pp. 1125-1134). IEEE. https://doi.org/10.1109/CVPR.2017.632
-
-* Arjovsky, M., Chintala, S., & Bottou, L. (2017). Wasserstein generative adversarial networks. In *Proceedings of the 34th International Conference on Machine Learning* (Vol. 70, pp. 214-223). PMLR. Retrieved from https://proceedings.mlr.press/v70/arjovsky17a.html
-
-* Gulrajani, I., Ahmed, F., Arjovsky, M., Dumoulin, V., & Courville, A. C. (2017). Improved training of Wasserstein GANs. In *Advances in Neural Information Processing Systems* (Vol. 30, pp. 5767-5777). Curran Associates, Inc.
-
-* Karras, T., Laine, S., & Aila, T. (2019). A style-based generator architecture for generative adversarial networks. In *Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)* (pp. 4401-4410). IEEE. https://doi.org/10.1109/CVPR.2019.00453
+* **Akbar, M. U., Larsson, M., Blystad, I., & Eklund, A. (2024).** Brain tumor segmentation using synthetic MR images – A comparison of GANs and diffusion models. *Scientific Data, 11*, 259. [https://doi.org/10.1038/s41597-024-03073-x](https://doi.org/10.1038/s41597-024-03073-x)
+* **Arjovsky, M., Chintala, S., & Bottou, L. (2017).** Wasserstein generative adversarial networks. In *Proceedings of the 34th International Conference on Machine Learning* (Vol. 70, pp. 214-223). PMLR. Retrieved from https://proceedings.mlr.press/v70/arjovsky17a.html
+* **Bossa, M. N., & Sahli, H. (2023).** A multidimensional ODE-based model of Alzheimer's disease progression. *Scientific Reports*, 13, 3162. https://doi.org/10.1038/s41598-023-29383-5
+* **Bossa, M. N., Nakshathri, A. G., Díaz Berenguer, A., & Sahli, H. (2024).** Generative AI unlocks PET insights: Brain amyloid dynamics and quantification. *Frontiers in Aging Neuroscience, 16*, 1410844. [https://doi.org/10.3389/fnagi.2024.1410844](https://doi.org/10.3389/fnagi.2024.1410844)
+* **Cai, J., Zhu, H., Liu, S., Qi, Y., & Chen, R. (2024).** Lung image segmentation via generative adversarial networks. *Frontiers in Physiology, 15*, 1408832. [https://doi.org/10.3389/fphys.2024.1408832](https://doi.org/10.3389/fphys.2024.1408832)
+* **Chen, Y., Wang, H., Zhang, D., Zhang, L., & Tao, L. (2023).** Multi-feature fusion learning for Alzheimer's disease prediction using EEG signals in resting state. *Frontiers in Neuroscience*, 17, 1272834. [https://doi.org/10.3389/fnins.2023.1272834](https://doi.org/10.3389/fnins.2023.1272834)
+* **Cho, C. H., Huang, P. J., Chen, M. C., & Lin, C. W. (2024).** Closed-loop deep brain stimulation with reinforcement learning and neural simulation. *IEEE Transactions on Neural Systems and Rehabilitation Engineering*, 32, 3615-3624. [https://doi.org/10.1109/TNSRE.2024.3465243](https://doi.org/10.1109/TNSRE.2024.3465243)
+* **Costa de Farias, E., di Noia, C., Han, C., Sala, E., & Castelli, M. (2021).** Impact of GAN-based lesion-focused medical image super-resolution on the robustness of radiomic features. *Scientific Reports, 11*, 21361. [https://doi.org/10.1038/s41598-021-00898-z](https://doi.org/10.1038/s41598-021-00898-z)
+* **Dubbioso, R., Pellegrino, G., Antenora, A., et al. (2024).** Voice signals database of ALS patients with different dysarthria severity and healthy controls. *Scientific Data*, 11, 597. [https://doi.org/10.1038/s41597-024-03597-2](https://doi.org/10.1038/s41597-024-03597-2)
+* **Gulakala, R., Markert, B., & Stoffel, M. (2022).** Generative adversarial network based data augmentation for CNN based detection of COVID-19. *Scientific Reports, 12*, 19186. [https://doi.org/10.1038/s41598-022-23692-x](https://doi.org/10.1038/s41598-022-23692-x)
+* **Gulrajani, I., Ahmed, F., Arjovsky, M., Dumoulin, V., & Courville, A. C. (2017).** Improved training of Wasserstein GANs. In *Advances in Neural Information Processing Systems* (Vol. 30, pp. 5767-5777). Curran Associates, Inc.
+* **Han, K., Wen, H., Shi, J., Lu, K.-H., Zhang, Y., Di, F., & Liu, Z. (2019).** Variational autoencoder: An unsupervised model for encoding and decoding fMRI activity in visual cortex. *NeuroImage*, 198, 125–136. https://doi.org/10.1016/j.neuroimage.2019.05.039
+* **Hassanaly, R., Brianceau, C., Colliot, O., & Burgos, N. (2024).** Unsupervised Anomaly Detection in 3D Brain FDG-PET: A Benchmark of 17 VAE-Based Approaches. In *Deep Generative Models (MICCAI 2023), LNCS 14533*, 110–120. https://doi.org/10.1007/978-3-031-53767-7_11
+* **Hazra, A., & Byun, Y. C. (2021).** SynSigGAN: Generative adversarial networks for synthetic biomedical signal generation. *Biology*, 9(12), 441. https://doi.org/10.3390/biology9120441
+* **He, R., Ang, G., Tward, D., for the Alzheimer's Disease Neuroimaging Initiative. (2025).** Individualized Multi-horizon MRI Trajectory Prediction for Alzheimer's Disease. In: Schroder, A., et al. Medical Image Computing and Computer Assisted Intervention – MICCAI 2024 Workshops. MICCAI 2024. Lecture Notes in Computer Science, vol 15401. Springer, Cham. https://doi.org/10.1007/978-3-031-84525-3_3
+* **Isola, P., Zhu, J.-Y., Zhou, T., & Efros, A. A. (2017).** Image-to-image translation with conditional adversarial networks. In *Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)* (pp. 1125-1134). IEEE. https://doi.org/10.1109/CVPR.2017.632
+* **Karras, T., Laine, S., & Aila, T. (2019).** A style-based generator architecture for generative adversarial networks. In *Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)* (pp. 4401-4410). IEEE. https://doi.org/10.1109/CVPR.2019.00453
+* **Kashyap, S., Sanz-Leon, P., & Breakspear, M. (2023).** A deep learning approach to estimating initial conditions of brain network models in reference to measured fMRI data. *Frontiers in Neuroscience*, 17, 1159914. https://doi.org/10.3389/fnins.2023.1159914
+* **Kim, J.-H., Zhang, Y., Han, K., Wen, Z., Choi, M., & Liu, Z. (2021).** Representation learning of resting state fMRI with variational autoencoder. *NeuroImage*, 241, 118423. https://doi.org/10.1016/j.neuroimage.2021.118423
+* **Kuang, Z., Liu, S., Zhao, J., Wang, L., & Li, Y. (2024).** Epilepsy EEG seizure prediction based on the combination of graph convolutional neural network combined with long- and short-term memory cell network. *Applied Sciences*, 14(24), 11569. https://doi.org/10.3390/app142411569
+* **Kumar, S., Payne, P., & Sotiras, A. (2022).** Normative Modeling using Multimodal Variational Autoencoders to Identify Abnormal Brain Structural Patterns in Alzheimer Disease. Proc SPIE Int Soc Opt Eng. 2023 Feb;12465:1246503. https://doi.org/10.1117/12.2654369.
+* **Lian, J., Luo, X., Wang, H., Chen, L., Ge, B., Wu, F. X., & Wang, J. (2024).** Personalized progression modelling and prediction in Parkinson's disease with a novel multi-modal graph approach. *npj Parkinson's Disease*, 10, 229. https://doi.org/10.1038/s41531-024-00832-w
+* **Liu, X., Li, C., Lou, X., Wang, L., & Chen, L. (2024).** Epileptic seizure prediction based on EEG using pseudo-three-dimensional CNN. *Frontiers in Neuroinformatics*, 18, 1354436. https://doi.org/10.3389/fninf.2024.1354436
+* **Pelosi, A. D., Roth, N., Yehoshua, T., Tepper, M., Ashkenazy, Y., & Hausdorff, J. M. (2024).** Personalized rehabilitation approach for reaching movement using reinforcement learning. *Scientific Reports*, 14, 17675. https://doi.org/10.1038/s41598-024-64514-6
+* **Peng, H., Gong, W., Beckmann, C. F., Vedaldi, A., & Smith, S. M. (2023).** Accurate brain age prediction with lightweight deep neural networks. *Medical Image Analysis*, 68, 101871. https://doi.org/10.1016/j.media.2020.101871
+* **Pinaya, W. H. L., Tudosiu, P. D., Dafflon, J., Da Costa, P. F., Fernandez, V., Nachev, P., ... & Cardoso, M. J. (2022).** Brain imaging generation with latent diffusion models. In *Deep Generative Models: Second MICCAI Workshop, DGM4MICCAI 2022* (pp. 117-126). Springer. https://doi.org/10.1007/978-3-031-18576-2_12
+* **Puglisi, G., Ribeiro, A. H., Lorenzi, M., et al. (2024).** Enhancing spatiotemporal disease progression models via latent diffusion and prior knowledge. In *Medical Image Computing and Computer Assisted Intervention – MICCAI 2024* (pp. 178-188). Springer. https://doi.org/10.1007/978-3-031-72069-7_17
+* **Qian, Z., Zame, W. R., Fleuren, L. M., et al. (2021).** Integrating expert ODEs into neural ODEs: Pharmacology and disease progression. *Advances in Neural Information Processing Systems*, 34, 15833-15845. https://proceedings.neurips.cc/paper/2021/hash/5ea1649a31336092c05438df996a3e59-Abstract.html
+* **Regondi, S., Celardo, A., Pugliese, R., et al. (2025).** Artificial intelligence empowered voice generation for amyotrophic lateral sclerosis patients. *Scientific Reports*, 15, 1247. https://doi.org/10.1038/s41598-024-84728-y
+* **Salem, M., Cabezas, M., Valverde, S., et al. (2020).** A fully convolutional neural network for new T2-w lesion detection in multiple sclerosis. *NeuroImage: Clinical*, 25, 102149. https://doi.org/10.1016/j.nicl.2019.102149
+* **Sengur, A., Akbulut, Y., Guo, Y., & Bajaj, V. (2017).** Classification of amyotrophic lateral sclerosis disease based on convolutional neural network and reinforcement sample learning algorithm. *Health Information Science and Systems*, 5, 9. https://doi.org/10.1007/s13755-017-0033-4
+* **Stasolla, F., & Di Gioia, C. (2023).** Combining reinforcement learning and virtual reality in mild neurocognitive impairment: A new usability assessment on patients and caregivers. *Frontiers in Aging Neuroscience*, 15, 1189498. https://doi.org/10.3389/fnagi.2023.1189498
+* **Valencia, L. M., Dyrby, T. B., Lunau Fernandez, M., et al. (2022).** Evaluating the use of synthetic T1-w images in new T2 lesion detection in multiple sclerosis. *Frontiers in Neuroscience*, 16, 954662. https://doi.org/10.3389/fnins.2022.954662
+* **Yin, W., Zhu, W., Gao, H., Zhao, H., Zhang, T., Zhang, C., ... & Hu, B. (2024).** Gait analysis in the early stage of Parkinson's disease with a machine learning approach. *Frontiers in Neurology*, 15, 1472956. https://doi.org/10.3389/fneur.2024.1472956
+* **Yuan, C., Duan, J., Xu, K., Tustison, N. J., Hubbard, R. A., & Linn, K. A. (2024).** ReMiND: Recovery of missing neuroimaging using diffusion models with application to Alzheimer's disease. *Imaging Neuroscience*, 2, 1-14. https://doi.org/10.1162/imag_a_00323
+* **Yue, Y., De Ridder, D., Manning, P., Deng, J.D. (2025).** Variational Autoencoder Learns Better Feature Representations for EEG-Based Obesity Classification. In: Antonacopoulos, A., et al. (eds) Pattern Recognition. ICPR 2024. Lecture Notes in Computer Science, vol 15323. Springer, Cham. https://doi.org/10.1007/978-3-031-78347-0_12
+* **Zhang, J., He, X., Qing, L., Gao, F., & Wang, B. (2022).** BPGAN: Brain PET synthesis from MRI using generative adversarial network for multi-modal Alzheimer's disease diagnosis. *Computer Methods and Programs in Biomedicine, 217*, 106676. [https://doi.org/10.1016/j.cmpb.2022.106676](https://doi.org/10.1016/j.cmpb.2022.106676)
+* **Zheng, X., Wang, B., Liu, H., Sun, H., Li, M., Chen, W., & Zhang, L. (2023).** Diagnosis of Alzheimer's disease via resting-state EEG: Integration of spectrum, complexity, and synchronization signal features. *Frontiers in Aging Neuroscience*, 15, 1288295. [https://doi.org/10.3389/fnagi.2023.1288295](https://doi.org/10.3389/fnagi.2023.1288295)
+* **Zhu, J. Y., Park, T., Isola, P., & Efros, A. A. (2017).** Unpaired image-to-image translation using cycle-consistent adversarial networks. *Proceedings of the IEEE International Conference on Computer Vision*, 2223-2232. [https://doi.org/10.1109/ICCV.2017.244](https://doi.org/10.1109/ICCV.2017.244) 
