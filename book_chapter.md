@@ -56,7 +56,7 @@ $$
 
 Under this loss, $D$ is trained to maximize the probability of correctly classifying real and fake samples, while $G$ is trained to minimize $\log(1-D(G(z)))$. In practice, non-saturating losses or variants (e.g. least-squares loss) are often used to stabilize training. Conditional GANs (cGANs) introduce labels or images as conditioning inputs, allowing generation of outputs that satisfy constraints (e.g. *Pix2Pix* (Isola et al. 2017) for paired image translation). 
 
-Unpaired translation GANs (e.g. *CycleGAN*) use cycle-consistency losses to enable mapping between two image domains without paired examples. The complete CycleGAN cycle consistency loss includes both forward and backward cycles:
+Unpaired translation GANs (e.g. *CycleGAN*; Zhu et al.,2017) use cycle-consistency losses to enable mapping between two image domains without paired examples. The complete CycleGAN cycle consistency loss includes both forward and backward cycles:
 
 $$
 L_{\text{cyc}}(G,F) = E_{x\sim p_{\text{data}}(x)}[\|F(G(x)) - x\|_1] + E_{y\sim p_{\text{data}}(y)}[\|G(F(y)) - y\|_1]
