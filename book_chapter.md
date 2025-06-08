@@ -326,23 +326,15 @@ Future studies should focus on hybrid models that combine the strengths of these
 * Yuda, E., Ando, T., Kaneko, I., Yoshida, Y., & Hirahara, D. (2024). **Comprehensive Data Augmentation Approach Using WGAN-GP and UMAP for Enhancing Alzheimer's Disease Diagnosis.** *Electronics, 13*(18), 3671. [https://doi.org/10.3390/electronics13183671](https://doi.org/10.3390/electronics13183671)
 * Zhu, J. Y., Park, T., Isola, P., & Efros, A. A. (2017). **Unpaired image-to-image translation using cycle-consistent adversarial networks.** *Proceedings of the IEEE International Conference on Computer Vision*, 2223-2232. [https://doi.org/10.1109/ICCV.2017.244](https://doi.org/10.1109/ICCV.2017.244)
 
-* Dong, W., Fong, D. Y. T., Yoon, J., Wan, E. Y. F., Bedford, L. E., Tang, E. H. M., & Lam, C. L. K. (2021). Generative adversarial networks for imputing missing data for big data clinical research. *BMC Medical Research Methodology*, 21, 78. https://doi.org/10.1186/s12874-021-01272-3
-
 * Han, K., Wen, H., Shi, J., Lu, K.-H., Zhang, Y., Di, F., & Liu, Z. (2019). Variational autoencoder: An unsupervised model for encoding and decoding fMRI activity in visual cortex. *NeuroImage*, 198, 125–136. https://doi.org/10.1016/j.neuroimage.2019.05.039
 
 * Hassanaly, R., Brianceau, C., Colliot, O., & Burgos, N. (2024). Unsupervised Anomaly Detection in 3D Brain FDG-PET: A Benchmark of 17 VAE-Based Approaches. In *Deep Generative Models (MICCAI 2023), LNCS 14533*, 110–120. https://doi.org/10.1007/978-3-031-53767-7_11
   
 * He, R., Ang, G., Tward, D., for the Alzheimer's Disease Neuroimaging Initiative. (2025). Individualized Multi-horizon MRI Trajectory Prediction for Alzheimer's Disease. In: Schroder, A., et al. Medical Image Computing and Computer Assisted Intervention – MICCAI 2024 Workshops. MICCAI 2024. Lecture Notes in Computer Science, vol 15401. Springer, Cham. https://doi.org/10.1007/978-3-031-84525-3_3
 
-* Kebaili, A., Lapuyade-Lahorgue, J., & Ruan, S. (2023). Deep Learning Approaches for Data Augmentation in Medical Imaging: A Review. *Journal of Imaging*, 9(4), 81. https://doi.org/10.3390/jimaging9040081
-
 * Kim, J.-H., Zhang, Y., Han, K., Wen, Z., Choi, M., & Liu, Z. (2021). Representation learning of resting state fMRI with variational autoencoder. *NeuroImage*, 241, 118423. https://doi.org/10.1016/j.neuroimage.2021.118423
 
 * Kumar, S., Payne, P., & Sotiras, A. (2022). Normative Modeling using Multimodal Variational Autoencoders to Identify Abnormal Brain Structural Patterns in Alzheimer Disease. Proc SPIE Int Soc Opt Eng. 2023 Feb;12465:1246503. https://doi.org/10.1117/12.2654369. Epub 2023 Apr 7. PMID: 38130873; PMCID: PMC10731988.
-
-* Maity, S., Mandal, R. P., Bhattacharjee, S., & Chatterjee, S. (2022). Variational Autoencoder-Based Imbalanced Alzheimer Detection Using Brain MRI Images. In *Lecture Notes in Networks and Systems, Vol. 402* (pp. 533–544). Springer. https://doi.org/10.1007/978-981-19-1657-1_14
-
-* Yoon, J., Jordon, J., & van der Schaar, M. (2018). GAIN: Missing data imputation using generative adversarial nets. In *Proceedings of the 35th International Conference on Machine Learning*, PMLR 80:5689-5698. https://proceedings.mlr.press/v80/yoon18a.html
 
 * Yue, Y., De Ridder, D., Manning, P., Deng, J.D. (2025). Variational Autoencoder Learns Better Feature Representations for EEG-Based Obesity Classification. In: Antonacopoulos, A., Chaudhuri, S., Chellappa, R., Liu, CL., Bhattacharya, S., Pal, U. (eds) Pattern Recognition. ICPR 2024. Lecture Notes in Computer Science, vol 15323. Springer, Cham. https://doi.org/10.1007/978-3-031-78347-0_12
 
