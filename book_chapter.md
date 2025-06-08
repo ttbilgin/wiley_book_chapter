@@ -170,7 +170,7 @@ Variational Autoencoders (VAEs) and Generative Adversarial Networks (GANs) are t
 
 * **Representation Learning & Interpretability:** VAEs yield an explicit latent space with a known prior, making them more interpretable: the latent dimensions capture meaningful features of the data. In contrast, GAN latent spaces lack an explicit probability model and are harder to interrogate. As a result, VAEs are often preferred when a low-dimensional embedding or feature attribution is needed (e.g. for biomarker discovery).
 
-### **Table 3. Summary of XXX Studies**
+### **Table 3. Comparative Analysis of VAE and GAN Applications in Healthcare**
 
 | **Application/Task**               | **VAE (Advantages)**                                                                                     | **GAN (Advantages)**                                                                      | **Remarks**                                                                                                                                            |
 | ---------------------------------- | -------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
